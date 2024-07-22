@@ -1,0 +1,52 @@
+[FABLES] what about instrumentalism? why cling to realism?
+[REFLEXIVITY] fix IC ending section
+[REFLEXIVITY] fix conclusion to reflect IC section
+[REFLEXIVITY] check comments from philsci
+[AUCTIONS] fix code for performance T=30
+[AUCTIONS] rerun N=1,3
+[AUCTIONS] add costs to the model...
+[APPENDIX] fix references + notation + links (etc)
+[INTRO] fix `contributions' and `strcuture' sections accordingly
+[CONC]] \S `A Comment on Ethics' (Hitzig paper + scientific value of IC
+
+kevin
+-----
+fix typos, etc
+fix up $2.4
+
+vince
+-----
+ad auctions
+phil engineering
+
+adrian list:
+------------
+2. NRMP example (x2 check)
+4. Why realism? only way not to preclude metaphysical content (not entirely epistemological)
+        leaves open possibility of projective theory
+5. emphasis: success != predictive value
+6. tell reader more about types of theory: impossibility results; solution concepts, etc
+7. vernon smith: econ in the lab
+8. recipes + blueprints (projective theory gets you objective [goal]
+        disagree with A+N F1 car (no general theory)
+9. multiple epistemic goals of auction theory (predictive success; goal)
+10. theory is teleological (physics is goal-neutral)
+
+me list:-
+--------
+INTRO
+        1) footnote P2: not the rest of econ? just (Guala general game theory paper) (also Vince comment concerning other game theory stuff)
+        2) fix structure (after all other fixes)
+$2.2
+        1) fn4 vince comment (civil transport could be an econ problem)
+        2) penultimate paragraph: why be realist at all? (dont rig the game vs metaphysics)
+$2.3
+        1) rip out 1st 2 paras, reference back to introduction
+        2) review NRMP example
+$2.4
+        1) Newman et al reference
+        2) see kevin comments for grammar issues (p12)
+        3) kevin comments: "not abductive" (p13)
+        4) clear up "relationship" success
+- engineering? 
+- rubinstein political readingkl

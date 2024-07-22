@@ -1,0 +1,1828 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{adams1976}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AWJ}{%
+         family={Adams},
+         familyi={A\bibinitperiod},
+         given={William\bibnamedelima James},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=YJL}{%
+         family={Yellen},
+         familyi={Y\bibinitperiod},
+         given={Janet\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{AWJYJL1}
+    \strng{fullhash}{AWJYJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{issn}{00335533, 15314650}
+    \field{number}{3}
+    \field{pages}{475\bibrangedash 498}
+    \field{title}{Commodity Bundling and the Burden of Monopoly}
+    \verb{url}
+    \verb http://www.jstor.org/stable/1886045
+    \endverb
+    \field{volume}{90}
+    \field{journaltitle}{The Quarterly Journal of Economics}
+    \field{year}{1976}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{alaei2019efficient}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AS}{%
+         family={Alaei},
+         familyi={A\bibinitperiod},
+         given={Saeed},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Hu},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HN}{%
+         family={Haghpanah},
+         familyi={H\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hartline},
+         familyi={H\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Malekian},
+         familyi={M\bibinitperiod},
+         given={Azarakhsh},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASFHHNHJMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{1058\bibrangedash 1086}
+    \field{title}{Efficient computation of optimal auctions via reduced forms}
+    \field{volume}{44}
+    \field{journaltitle}{Mathematics of Operations Research}
+    \field{year}{2019}
+  \endentry
+
+  \entry{armstrong1996multiproduct}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Armstrong},
+         familyi={A\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Econometric Society}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1}
+    \field{pages}{51\bibrangedash 75}
+    \field{title}{Multiproduct nonlinear pricing}
+    \field{volume}{64}
+    \field{journaltitle}{Econometrica}
+    \field{year}{1996}
+    \warn{\item Invalid format of field 'date' \item Can't use 'journaltitle' +
+  'journal' \item Invalid format of field 'date'}
+  \endentry
+
+  \entry{balestrieri2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BF}{%
+         family={Balestrieri},
+         familyi={B\bibinitperiod},
+         given={Filippo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Izmalkov},
+         familyi={I\bibinitperiod},
+         given={Sergei},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Leao},
+         familyi={L\bibinitperiod},
+         given={Joao},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BFISLJ1}
+    \strng{fullhash}{BFISLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1093/jeea/jvaa021
+    \endverb
+    \field{issn}{1542-4766}
+    \field{number}{1}
+    \field{pages}{509\bibrangedash 535}
+    \field{title}{{The Market for Surprises: Selling Substitute Goods Through
+  Lotteries}}
+    \verb{url}
+    \verb https://doi.org/10.1093/jeea/jvaa021
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Journal of the European Economic Association}
+    \field{month}{06}
+    \field{year}{2020}
+  \endentry
+
+  \entry{barelli2014exclusion}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BP}{%
+         family={Barelli},
+         familyi={B\bibinitperiod},
+         given={Paulo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Basov},
+         familyi={B\bibinitperiod},
+         given={Suren},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bugarin},
+         familyi={B\bibinitperiod},
+         given={Mauricio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={King},
+         familyi={K\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \keyw{Multi-dimensional screening, Exclusion, Regulation of a monopoly,
+  Involuntary unemployment}
+    \strng{namehash}{BP+1}
+    \strng{fullhash}{BPBSBMKI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jmateco.2014.09.002
+    \endverb
+    \field{issn}{0304-4068}
+    \field{pages}{74\bibrangedash 83}
+    \field{title}{On the optimality of exclusion in multi-dimensional
+  screening}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0304406814001128
+    \endverb
+    \field{volume}{54}
+    \field{journaltitle}{Journal of Mathematical Economics}
+    \field{year}{2014}
+  \endentry
+
+  \entry{basov2005multidimensional}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Basov},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{9783540273134}
+    \field{series}{Studies in Economic Theory}
+    \field{title}{Multidimensional Screening}
+    \field{year}{2005}
+  \endentry
+
+  \entry{belloni2010multidimensional}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Belloni},
+         familyi={B\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lopomo},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shouqiang},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \strng{namehash}{BALGWS1}
+    \strng{fullhash}{BALGWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4-part-2}
+    \field{pages}{1079\bibrangedash 1089}
+    \field{title}{Multidimensional mechanism design: Finite-dimensional
+  approximations and efficient computation}
+    \field{volume}{58}
+    \field{journaltitle}{Operations Research}
+    \field{year}{2010}
+  \endentry
+
+  \entry{border1991implementation}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BKC}{%
+         family={Border},
+         familyi={B\bibinitperiod},
+         given={Kim\bibnamedelima C.},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{BKC1}
+    \strng{fullhash}{BKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{1175\bibrangedash 1187}
+    \field{title}{Implementation of reduced form auctions: A geometric
+  approach}
+    \field{journaltitle}{Econometrica: Journal of the Econometric Society}
+    \field{year}{1991}
+  \endentry
+
+  \entry{brusco2009google}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Brusco},
+         familyi={B\bibinitperiod},
+         given={Sandro},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lopomo},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Marx},
+         familyi={M\bibinitperiod},
+         given={Leslie\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSLGMLM1}
+    \strng{fullhash}{BSLGMLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.infoecopol.2009.03.001
+    \endverb
+    \field{issn}{0167-6245}
+    \field{note}{Special Section on Auctions}
+    \field{number}{2}
+    \field{pages}{101\bibrangedash 114}
+    \field{title}{The ‘Google effect’ in the FCC’s 700MHz auction}
+    \field{volume}{21}
+    \field{journaltitle}{Information Economics and Policy}
+    \field{year}{2009}
+  \endentry
+
+  \entry{brusco2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Brusco},
+         familyi={B\bibinitperiod},
+         given={Sandro},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lopomo},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MLM}{%
+         family={Marx},
+         familyi={M\bibinitperiod},
+         given={Leslie\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSLGMLM1}
+    \strng{fullhash}{BSLGMLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1257/mic.3.2.165
+    \endverb
+    \field{number}{2}
+    \field{pages}{165\bibrangedash 93}
+    \field{title}{The Economics of Contingent Re-auctions}
+    \verb{url}
+    \verb https://www.aeaweb.org/articles?id=10.1257/mic.3.2.165
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{American Economic Journal: Microeconomics}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{cai2012}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=CY}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Daskalakis},
+         familyi={D\bibinitperiod},
+         given={Constantinos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WSM}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={S.\bibnamedelima Matthew},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CYDCWSM1}
+    \strng{fullhash}{CYDCWSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{2012 IEEE 53rd Annual Symposium on Foundations of
+  Computer Science}
+    \verb{doi}
+    \verb 10.1109/FOCS.2012.88
+    \endverb
+    \field{pages}{130\bibrangedash 139}
+    \field{title}{Optimal Multi-dimensional Mechanism Design: Reducing Revenue
+  to Welfare Maximization}
+    \field{year}{2012}
+  \endentry
+
+  \entry{cai2016}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=CY}{%
+         family={Cai},
+         familyi={C\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DNR}{%
+         family={Devanur},
+         familyi={D\bibinitperiod},
+         given={Nikhil\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WSM}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={S.\bibnamedelima Matthew},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Simple and Approximately Optimal Auctions, Revenue}
+    \strng{namehash}{CYDNRWSM1}
+    \strng{fullhash}{CYDNRWSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the Forty-Eighth Annual ACM Symposium on
+  Theory of Computing}
+    \verb{doi}
+    \verb 10.1145/2897518.2897645
+    \endverb
+    \field{isbn}{9781450341325}
+    \field{pages}{926–939}
+    \field{series}{STOC '16}
+    \field{title}{A Duality Based Unified Approach to Bayesian Mechanism
+  Design}
+    \verb{url}
+    \verb https://doi.org/10.1145/2897518.2897645
+    \endverb
+    \list{location}{1}{%
+      {Cambridge, MA, USA}%
+    }
+    \field{year}{2016}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{chawla2007}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=CS}{%
+         family={Chawla},
+         familyi={C\bibinitperiod},
+         given={Shuchi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HJD}{%
+         family={Hartline},
+         familyi={H\bibinitperiod},
+         given={Jason\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kleinberg},
+         familyi={K\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{virtual valuations, approximation algorithms, pricing}
+    \strng{namehash}{CSHJDKR1}
+    \strng{fullhash}{CSHJDKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 8th ACM Conference on Electronic
+  Commerce}
+    \verb{doi}
+    \verb 10.1145/1250910.1250946
+    \endverb
+    \field{isbn}{9781595936530}
+    \field{pages}{243–251}
+    \field{series}{EC '07}
+    \field{title}{Algorithmic Pricing via Virtual Valuations}
+    \verb{url}
+    \verb https://doi.org/10.1145/1250910.1250946
+    \endverb
+    \list{location}{1}{%
+      {San Diego, California, USA}%
+    }
+    \field{year}{2007}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{conitzer2002}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CV}{%
+         family={Conitzer},
+         familyi={C\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sandholm},
+         familyi={S\bibinitperiod},
+         given={Tuomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Morgan Kaufmann Publishers Inc.}%
+    }
+    \strng{namehash}{CVST1}
+    \strng{fullhash}{CVST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the Eighteenth Conference on Uncertainty
+  in Artificial Intelligence}
+    \field{isbn}{1558608974}
+    \field{pages}{103–110}
+    \field{series}{UAI'02}
+    \field{title}{Complexity of mechanism design}
+    \list{location}{1}{%
+      {Alberta, Canada}%
+    }
+    \field{year}{2002}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{conitzer2004}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CV}{%
+         family={Conitzer},
+         familyi={C\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sandholm},
+         familyi={S\bibinitperiod},
+         given={Tuomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{revenue maximization, combinatorial auctions, automated mechanism
+  design}
+    \strng{namehash}{CVST1}
+    \strng{fullhash}{CVST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 5th ACM Conference on Electronic
+  Commerce}
+    \verb{doi}
+    \verb 10.1145/988772.988793
+    \endverb
+    \field{isbn}{1581137710}
+    \field{pages}{132–141}
+    \field{series}{EC '04}
+    \field{title}{Self-interested automated mechanism design and implications
+  for optimal combinatorial auctions}
+    \verb{url}
+    \verb https://doi.org/10.1145/988772.988793
+    \endverb
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{2004}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{conitzer2021}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=CV}{%
+         family={Conitzer},
+         familyi={C\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Hanrui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kephart},
+         familyi={K\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Yu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Krishnaswamy},
+         familyi={K\bibinitperiod},
+         given={Anilesh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Haoming},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=}{%
+      }}%
+      {{hash=RD}{%
+         family={Rein},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{strategic classification, automated mechanism design}
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVZHKACYKALHRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 27th ACM SIGKDD Conference on
+  Knowledge Discovery \& Data Mining}
+    \verb{doi}
+    \verb 10.1145/3447548.3469650
+    \endverb
+    \field{isbn}{9781450383325}
+    \field{pages}{1}
+    \field{series}{KDD '21}
+    \field{title}{Automated Mechanism Design for Strategic Classification}
+    \verb{url}
+    \verb https://doi.org/10.1145/3447548.3469650
+    \endverb
+    \list{location}{1}{%
+      {Virtual Event, Singapore}%
+    }
+    \field{year}{2021}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{daskalakis2015multi}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DC}{%
+         family={Daskalakis},
+         familyi={D\bibinitperiod},
+         given={Constantinos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM New York, NY, USA}%
+    }
+    \strng{namehash}{DC1}
+    \strng{fullhash}{DC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{41\bibrangedash 75}
+    \field{title}{Multi-item auctions defying intuition?}
+    \field{volume}{14}
+    \field{journaltitle}{ACM SIGecom Exchanges}
+    \field{year}{2015}
+  \endentry
+
+  \entry{daskalakis2017strong}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DC}{%
+         family={Daskalakis},
+         familyi={D\bibinitperiod},
+         given={Constantinos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Deckelbaum},
+         familyi={D\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tzamos},
+         familyi={T\bibinitperiod},
+         given={Christos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{DCDATC1}
+    \strng{fullhash}{DCDATC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{3}
+    \field{pages}{735\bibrangedash 767}
+    \field{title}{Strong duality for a multiple-good monopolist}
+    \field{volume}{85}
+    \field{journaltitle}{Econometrica}
+    \field{year}{2017}
+  \endentry
+
+  \entry{dutting2024}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DP}{%
+         family={D\"{u}tting},
+         familyi={D\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FZ}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Narasimhan},
+         familyi={N\bibinitperiod},
+         given={Harikrishna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PDC}{%
+         family={Parkes},
+         familyi={P\bibinitperiod},
+         given={David\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RSS}{%
+         family={Ravindranath},
+         familyi={R\bibinitperiod},
+         given={Sai\bibnamedelima Srivatsa},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Deep learning, differentiable programming, mechanism design, game
+  theory, auction design, multi-item auctions, sample complexity,
+  generalization bounds}
+    \strng{namehash}{DP+1}
+    \strng{fullhash}{DPFZNHPDCRSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1145/3630749
+    \endverb
+    \field{issn}{0004-5411}
+    \field{number}{1}
+    \field{title}{Optimal Auctions through Deep Learning: Advances in
+  Differentiable Economics}
+    \verb{url}
+    \verb https://doi.org/10.1145/3630749
+    \endverb
+    \field{volume}{71}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{J. ACM}
+    \field{year}{2024}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ekeland2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EI}{%
+         family={Ekeland},
+         familyi={E\bibinitperiod},
+         given={Ivar},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EI1}
+    \strng{fullhash}{EI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{doi}
+    \verb 10.1007/s00199-008-0426-9
+    \endverb
+    \field{number}{2}
+    \field{pages}{437\bibrangedash 459}
+    \field{title}{{Notes on optimal transportation}}
+    \verb{url}
+    \verb https://ideas.repec.org/a/spr/joecth/v42y2010i2p437-459.html
+    \endverb
+    \field{volume}{42}
+    \field{journaltitle}{Economic Theory}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{guesnerie1984complete}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GR}{%
+         family={Guesnerie},
+         familyi={G\bibinitperiod},
+         given={Roger},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LJJ}{%
+         family={Laffont},
+         familyi={L\bibinitperiod},
+         given={Jean-Jacques},
+         giveni={J\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRLJJ1}
+    \strng{fullhash}{GRLJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0047-2727(84)90060-4
+    \endverb
+    \field{issn}{0047-2727}
+    \field{number}{3}
+    \field{pages}{329\bibrangedash 369}
+    \field{title}{A complete solution to a class of principal-agent problems
+  with an application to the control of a self-managed firm}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0047272784900604
+    \endverb
+    \field{volume}{25}
+    \field{journaltitle}{Journal of Public Economics}
+    \field{year}{1984}
+  \endentry
+
+  \entry{haghpanah2014}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=HN}{%
+         family={Haghpanah},
+         familyi={H\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hartline},
+         familyi={H\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \strng{namehash}{HNHJ1}
+    \strng{fullhash}{HNHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.48550/ARXIV.1404.1341
+    \endverb
+    \field{title}{Multi-dimensional Virtual Values and Second-degree Price
+  Discrimination}
+    \verb{url}
+    \verb https://arxiv.org/abs/1404.1341
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{haghpanah2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HN}{%
+         family={Haghpanah},
+         familyi={H\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hartline},
+         familyi={H\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HNHJ1}
+    \strng{fullhash}{HNHJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{3}
+    \field{pages}{1127\bibrangedash 1156}
+    \field{title}{When Is Pure Bundling Optimal?}
+    \field{volume}{88}
+    \field{journaltitle}{Review of Economic Studies}
+    \field{year}{2021}
+  \endentry
+
+  \entry{hart2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HS}{%
+         family={Hart},
+         familyi={H\bibinitperiod},
+         given={Sergiu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NN}{%
+         family={Nisan},
+         familyi={N\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{Mechanism design, Multiple goods, Correlated goods, Monopolistic
+  pricing, Menu size, Complexity, Auctions, Simple mechanisms}
+    \strng{namehash}{HSNN1}
+    \strng{fullhash}{HSNN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jet.2019.07.006
+    \endverb
+    \field{issn}{0022-0531}
+    \field{pages}{991\bibrangedash 1029}
+    \field{title}{Selling multiple correlated goods: Revenue maximization and
+  menu-size complexity}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022053119300717
+    \endverb
+    \field{volume}{183}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2019}
+  \endentry
+
+  \entry{hotelling1929}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HH}{%
+         family={Hotelling},
+         familyi={H\bibinitperiod},
+         given={Harold},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {[Royal Economic Society, Wiley]}%
+    }
+    \strng{namehash}{HH1}
+    \strng{fullhash}{HH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1929}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{issn}{00130133, 14680297}
+    \field{number}{153}
+    \field{pages}{41\bibrangedash 57}
+    \field{title}{Stability in Competition}
+    \verb{url}
+    \verb http://www.jstor.org/stable/2224214
+    \endverb
+    \field{volume}{39}
+    \field{journaltitle}{The Economic Journal}
+    \field{year}{1929}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{jullien2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JB}{%
+         family={Jullien},
+         familyi={J\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JB1}
+    \strng{fullhash}{JB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb https://doi.org/10.1006/jeth.1999.2641
+    \endverb
+    \field{issn}{0022-0531}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 47}
+    \field{title}{Participation Constraints in Adverse Selection Models}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022053199926418
+    \endverb
+    \field{volume}{93}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2000}
+  \endentry
+
+  \entry{kolesnikov2022}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=KA}{%
+         family={Kolesnikov},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sandomirskiy},
+         familyi={S\bibinitperiod},
+         given={Fedor},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tsyvinski},
+         familyi={T\bibinitperiod},
+         given={Aleh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZAP}{%
+         family={Zimin},
+         familyi={Z\bibinitperiod},
+         given={Alexander\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KASFTAZAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.48550/ARXIV.2203.06837
+    \endverb
+    \field{title}{Beckmann's approach to multi-item multi-bidder auctions}
+    \verb{url}
+    \verb https://arxiv.org/abs/2203.06837
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{loertscher2023}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=LS}{%
+         family={Loertscher},
+         familyi={L\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Muir},
+         familyi={M\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LSME1}
+    \strng{fullhash}{LSME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Optimal Hotelling Auctions}
+    \field{year}{2023}
+  \endentry
+
+  \entry{manelli2006}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MAM}{%
+         family={Manelli},
+         familyi={M\bibinitperiod},
+         given={Alejandro\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VDR}{%
+         family={Vincent},
+         familyi={V\bibinitperiod},
+         given={Daniel\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAMVDR2}
+    \strng{fullhash}{MAMVDR2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jet.2005.08.007
+    \endverb
+    \field{issn}{0022-0531}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 35}
+    \field{title}{Bundling as an optimal selling mechanism for a multiple-good
+  monopolist}
+    \field{volume}{127}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2006}
+  \endentry
+
+  \entry{manelli2007multidimensional}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MAM}{%
+         family={Manelli},
+         familyi={M\bibinitperiod},
+         given={Alejandro\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VDR}{%
+         family={Vincent},
+         familyi={V\bibinitperiod},
+         given={Daniel\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MAMVDR1}
+    \strng{fullhash}{MAMVDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{153\bibrangedash 185}
+    \field{title}{Multidimensional mechanism design: Revenue maximization and
+  the multiple-good monopoly}
+    \field{volume}{137}
+    \field{journaltitle}{Journal of Economic theory}
+    \field{year}{2007}
+  \endentry
+
+  \entry{mcafee1989}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MRP}{%
+         family={McAfee},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima Preston},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McMillan},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WMD}{%
+         family={Whinston},
+         familyi={W\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{MRPMJWMD1}
+    \strng{fullhash}{MRPMJWMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{issn}{00335533, 15314650}
+    \field{number}{2}
+    \field{pages}{371\bibrangedash 383}
+    \field{title}{Multiproduct Monopoly, Commodity Bundling, and Correlation of
+  Values}
+    \verb{url}
+    \verb http://www.jstor.org/stable/2937852
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{The Quarterly Journal of Economics}
+    \field{year}{1989}
+    \field{urlday}{24}
+    \field{urlmonth}{12}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mirrlees1971}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MJA}{%
+         family={Mirrlees},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {[Oxford University Press, Review of Economic Studies, Ltd.]}%
+    }
+    \strng{namehash}{MJA1}
+    \strng{fullhash}{MJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1971}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{2}
+    \field{pages}{175\bibrangedash 208}
+    \field{title}{An Exploration in the Theory of Optimum Income Taxation}
+    \verb{url}
+    \verb http://www.jstor.org/stable/2296779
+    \endverb
+    \field{volume}{38}
+    \field{journaltitle}{The Review of Economic Studies}
+    \field{year}{1971}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{mussa1978}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MM}{%
+         family={Mussa},
+         familyi={M\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Rosen},
+         familyi={R\bibinitperiod},
+         given={Sherwin},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMRS1}
+    \strng{fullhash}{MMRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1978}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0022-0531(78)90085-6
+    \endverb
+    \field{issn}{0022-0531}
+    \field{number}{2}
+    \field{pages}{301\bibrangedash 317}
+    \field{title}{Monopoly and product quality}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0022053178900856
+    \endverb
+    \field{volume}{18}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{1978}
+  \endentry
+
+  \entry{myerson1981optimal}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MRB}{%
+         family={Myerson},
+         familyi={M\bibinitperiod},
+         given={Roger\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \strng{namehash}{MRB1}
+    \strng{fullhash}{MRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1981}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{58\bibrangedash 73}
+    \field{title}{Optimal auction design}
+    \field{volume}{6}
+    \field{journaltitle}{Mathematics of Operations Research}
+    \field{year}{1981}
+  \endentry
+
+  \entry{pavlov2011optimal}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PG}{%
+         family={Pavlov},
+         familyi={P\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter}%
+    }
+    \strng{namehash}{PG1}
+    \strng{fullhash}{PG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{1}
+    \field{title}{Optimal mechanism for selling two goods}
+    \field{volume}{11}
+    \field{journaltitle}{The BE Journal of Theoretical Economics}
+    \field{year}{2011}
+  \endentry
+
+  \entry{ortools}{software}{}
+    \name{author}{2}{}{%
+      {{hash=PL}{%
+         family={Perron},
+         familyi={P\bibinitperiod},
+         given={Laurent},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FV}{%
+         family={Furnon},
+         familyi={F\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Google}%
+    }
+    \strng{namehash}{PLFV1}
+    \strng{fullhash}{PLFV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{OR-Tools}
+    \verb{url}
+    \verb https://developers.google.com/optimization/
+    \endverb
+    \field{version}{v9.7}
+    \field{day}{08}
+    \field{month}{08}
+    \field{year}{2023}
+  \endentry
+
+  \entry{riley1983}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJ}{%
+         family={Riley},
+         familyi={R\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zeckhauser},
+         familyi={Z\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJZR1}
+    \strng{fullhash}{RJZR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1983}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{2}
+    \field{pages}{267\bibrangedash 289}
+    \field{title}{Optimal Selling Strategies: When to Haggle, When to Hold
+  Firm}
+    \verb{url}
+    \verb https://EconPapers.repec.org/RePEc:oup:qjecon:v:98:y:1983:i:2:p:267-2
+    \verb 89.
+    \endverb
+    \field{volume}{98}
+    \field{journaltitle}{The Quarterly Journal of Economics}
+    \field{year}{1983}
+  \endentry
+
+  \entry{rochet1987}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RJC}{%
+         family={Rochet},
+         familyi={R\bibinitperiod},
+         given={Jean-Charles},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJC1}
+    \strng{fullhash}{RJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0304-4068(87)90007-3
+    \endverb
+    \field{issn}{0304-4068}
+    \field{number}{2}
+    \field{pages}{191\bibrangedash 200}
+    \field{title}{A necessary and sufficient condition for rationalizability in
+  a quasi-linear context}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/0304406887900073
+    \endverb
+    \field{volume}{16}
+    \field{journaltitle}{Journal of Mathematical Economics}
+    \field{year}{1987}
+  \endentry
+
+  \entry{rochet1998ironing}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJC}{%
+         family={Rochet},
+         familyi={R\bibinitperiod},
+         given={Jean-Charles},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chon{\'e}},
+         familyi={C\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Econometric Society}%
+    }
+    \strng{namehash}{RJCCP1}
+    \strng{fullhash}{RJCCP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{4}
+    \field{pages}{783\bibrangedash 826}
+    \field{title}{Ironing, sweeping, and multidimensional screening}
+    \field{volume}{66}
+    \field{journaltitle}{Econometrica}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{rochetstole2003}{inbook}{}
+    \name{author}{2}{}{%
+      {{hash=RJC}{%
+         family={Rochet},
+         familyi={R\bibinitperiod},
+         given={Jean-Charles},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=SLA}{%
+         family={Stole},
+         familyi={S\bibinitperiod},
+         given={Lars\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=DM}{%
+         family={Dewatripont},
+         familyi={D\bibinitperiod},
+         given={Mathias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HLP}{%
+         family={Hansen},
+         familyi={H\bibinitperiod},
+         given={Lars\bibnamedelima Peter},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=TSJ}{%
+         family={Turnovsky},
+         familyi={T\bibinitperiod},
+         given={Stephen\bibnamedelima J.Editors},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{RJCSLA1}
+    \strng{fullhash}{RJCSLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Advances in Economics and Econometrics: Theory and
+  Applications, Eighth World Congress}
+    \verb{doi}
+    \verb 10.1017/CBO9780511610240.006
+    \endverb
+    \field{pages}{150–197}
+    \field{series}{Econometric Society Monographs}
+    \field{title}{The Economics of Multidimensional Screening}
+    \field{volume}{1}
+    \field{year}{2003}
+  \endentry
+
+  \entry{thanassoulis2004}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TJ}{%
+         family={Thanassoulis},
+         familyi={T\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TJ1}
+    \strng{fullhash}{TJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jet.2003.09.002
+    \endverb
+    \field{issn}{0022-0531}
+    \field{number}{2}
+    \field{pages}{217\bibrangedash 245}
+    \field{title}{Haggling over substitutes}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022053103003351
+    \endverb
+    \field{volume}{117}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2004}
+  \endentry
+
+  \entry{thirumulanathan2019unitdemand}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TD}{%
+         family={Thirumulanathan},
+         familyi={T\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sundaresan},
+         familyi={S\bibinitperiod},
+         given={Rajesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Narahari},
+         familyi={N\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Game theory, Economics, Optimal auctions, Stochastic orders, Convex
+  optimization}
+    \strng{namehash}{TDSRNY1}
+    \strng{fullhash}{TDSRNY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jmateco.2019.01.005
+    \endverb
+    \field{issn}{0304-4068}
+    \field{pages}{31\bibrangedash 60}
+    \field{title}{On optimal mechanisms in the two-item single-buyer
+  unit-demand setting}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S030440681930014X
+    \endverb
+    \field{volume}{82}
+    \field{journaltitle}{Journal of Mathematical Economics}
+    \field{year}{2019}
+  \endentry
+
+  \entry{thirumulanathan2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TD}{%
+         family={Thirumulanathan},
+         familyi={T\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sundaresan},
+         familyi={S\bibinitperiod},
+         given={Rajesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NY}{%
+         family={Narahari},
+         familyi={N\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Game theory, Economics, Optimal auctions, Stochastic orders, Convex
+  optimization}
+    \strng{namehash}{TDSRNY1}
+    \strng{fullhash}{TDSRNY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jmateco.2019.01.004
+    \endverb
+    \field{issn}{0304-4068}
+    \field{pages}{1\bibrangedash 30}
+    \field{title}{Optimal mechanisms for selling two items to a single buyer
+  having uniformly distributed valuations}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0304406819300138
+    \endverb
+    \field{volume}{82}
+    \field{journaltitle}{Journal of Mathematical Economics}
+    \field{year}{2019}
+  \endentry
+
+  \entry{wang2014optimal}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=WZ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Zihe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Pingzhong},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{optimal mechanism design, revenue maximization, menu representation}
+    \strng{namehash}{WZTP1}
+    \strng{fullhash}{WZTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{Proceedings of the Fifteenth ACM Conference on Economics
+  and Computation}
+    \verb{doi}
+    \verb 10.1145/2600057.2602863
+    \endverb
+    \field{isbn}{9781450325653}
+    \field{pages}{227–240}
+    \field{series}{EC '14}
+    \field{title}{Optimal Mechanisms with Simple Menus}
+    \verb{url}
+    \verb https://doi.org/10.1145/2600057.2602863
+    \endverb
+    \list{location}{1}{%
+      {Palo Alto, California, USA}%
+    }
+    \field{year}{2014}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{wilson1993nonlinear}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WR}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={R.B.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{WR1}
+    \strng{fullhash}{WR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{isbn}{9780195115826}
+    \field{title}{Nonlinear Pricing}
+    \field{year}{1993}
+  \endentry
+\enddatalist
+\endinput

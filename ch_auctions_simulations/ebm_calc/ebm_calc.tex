@@ -1,0 +1,146 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage{esint}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{algorithm2e}
+
+\usepackage[
+    backend=bibtex,
+    style=authoryear,
+    sorting=nyt,
+    autocite=inline
+]{biblatex}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\graphicspath{ {.} }
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\addbibresource{auctions-references.bib}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{condition}{Condition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{conjecture}{Conjecture}
+
+\newcounter{fig}
+
+\providecommand{\keywords}[1]{\textbf{Keywords:} #1}
+
+% ----- 
+
+\title{Is The `Exclusive Buyer Mechanism' Optimal?}
+\author{James Michelson}
+\date{\today}
+
+\doublespacing
+
+\begin{document}
+
+\section{Exclusive Buyer Mechanism}
+
+Suppose there are $i=1,\dots,N$ bidders in an auction for a good with $j=1,2$ quality levels. Suppose each bidder's valuation for the good is given by $x^i = (x_1^i,x_2^i) \in [\underline{x}_1^i, \overline{x}_1^i] \times [\underline{x}_2^i, \overline{x}_2^i]$. We assume bidders' valuations are identical and independently distributed but we allow an individual bidder's valuations for quality grades to be arbitrarily correlated. 
+
+We now construct an \textit{exclusive-buyer mechanism}. This mechanism is a little different\footnote{It does not rely on a ``add-on price'' in addition to a ``reserve price''. Instead, we assume a price is given for each quality grade.} than that of \autocite{belloni2010multidimensional}. Since bidder valuations are symmetric, we omit the superscript $i$ (i.e., $X = X^i$). For any given \textit{reserve price} $p=(p_1,p_2)$, let
+\begin{equation}
+    \beta_1 = x_1 - p_1 \quad \text{and} \quad \beta_2 = x_2 - p_2
+\end{equation}
+and define the interim allocations\footnote{In the event of ties where $\beta_1 = \beta_2$ then both allocations $Q_1,Q_2$ are equal.} as:
+\begin{align}
+    Q_1(x;p) &= \mathbbm{1}\{ \beta_1 > \beta_2 \land \beta_1 \geq 0 \} \bigg( \int_{\underline{x}}^{(x_1, \min\{\overline{x}_2, p_2 + \beta_1 \})} \mathbbm{1}\{ t_1 - p_1 > t_2 - p_2 \land t_1 - p_1 \geq 0 \} dF(t) \bigg)^{N-1} \\
+    Q_2(x;p) &= \mathbbm{1}\{ \beta_2 > \beta_1 \land \beta_2 \geq 0 \} \bigg( \int_{\underline{x}}^{(\min\{\overline{x}_1, p_1 + \beta_2 \},x_2)} \mathbbm{1}\{ t_2 - p_2 > t_1 - p_1 \land t_2 - p_2 \geq 0 \} dF(t) \bigg)^{N-1}
+\end{align}
+\noindent Then the expected revenue from price $p$ is given by:
+\begin{equation}
+    R_{EBM}(p) = N \int_X Q(x;p) \cdot  (p - c) dF(x)
+\end{equation}
+\noindent where costs are given by $c = (c_1,c_2)$.
+
+%  In the context of a discretized approximation $T$, the expected revenue is approximated as follows:
+% \begin{equation}
+%     R(p) \approx N \bigg( \sum_{x \in X_T} \bigg[ \sum_{j=1,2} Q_j(x;p) (p_j - c_j) \bigg] f(x) \bigg)
+% \end{equation}
+
+\section{Calculations}
+
+For ease of calculation, we divide up the type space according to which quality level of the good is preferred:
+\begin{align}
+    A := \{ x \in X | x_1 - p_1 > x_2 - p_2 \text{ and } x_1 - p_1 \geq 0 \} \\
+    B := \{ x \in X | x_2 - p_2 > x_1 - p_1 \text{ and } x_2 - p_2 \geq 0 \} 
+\end{align}
+
+\subsection{$N=1$}
+
+Notice that for $N=1$,
+\begin{equation}
+    R(p) = \int_{x \in A} (p_1 - c_1) dF(x) +  \int_{x \in B} (p_2 - c_2) dF(x)
+\end{equation}
+
+\subsubsection{$X=U[0,1]^2$ \autocite{pavlov2011optimal}}
+
+{\color{red}$p* = (\frac{1}{\sqrt{3}},\frac{1}{\sqrt{3}})$ DONE}
+
+% From \autocite[Example 1]{pavlov2011optimal}, we know that the optimal reserve price is $p^* = (\sqrt{\frac{1}{3}},\sqrt{\frac{1}{3}})$ and the expected revenue is $p^* ( 1 - p^{*2})$. The revenue according to the exclusive buyer mechanism is given by:
+% \begin{align}
+%     Rev(p) &= \int_{x \in A} Q_1(x;p) (p^* - c_1) dF(x) + \int_{x \in B} Q_2(x;p) (p^* - c_2) dF(x) \\
+%         &= \int_{p^*}^1 \int_0^x (p^* - c_1) f(x_1,x_2) dx_2 dx_1 + \int_{p^*}^1 \int_0^y (p^* - c_2) f(x_1,x_2) dx_1 dx_2 \\
+%         &= p^* \bigg( \int_{p^*}^1 \int_0^x dx_2 dx_1 + \int_{p^*}^1 \int_0^y dx_1 dx_2 \bigg) \\
+%         &= p^* ( 1 - p^{*2})
+% \end{align}
+
+
+\subsubsection{$X=U[6,8]\times U[9,11], c=[.9,5]$ \autocite{belloni2010multidimensional}}
+
+{\color{red}$p^* = (9,10.5)$ DONE}\\
+\noindent {\color{red}$revenue^* \approx 5.12$ DONE}
+
+\subsection{$N=2$}
+
+\subsubsection{$X=U[6,8]\times U[9,11], c=[.9,5]$ \autocite{belloni2010multidimensional}}
+
+{\color{red}$p^* = (6,10.1)$ TODO}\\
+\noindent {\color{red}$revenue^* \approx 5.89$ TODO}
+\begin{align}
+    R_{EBM}(p) &= N \bigg( \int_{x \in A} Q_1(x;p)(p_1 - c_1)dF(x) + \int_{x \in B} Q_2(x;p)(p_2 - c_2)dF(x) \bigg) \\
+        &= N \int_{x \in A} \bigg( \int_{\underline{x}}^{(x_1, \min\{\overline{x}_2, p_2 + x_1 - p_1 \})} \mathbbm{1}\{ t_1 - p_1 > t_2 - p_2 \land t_1 - p_1 \geq 0 \} dF(t) \bigg)^{N-1} (p_1 - c_1)dF(x) \\
+            &\quad+ N \int_{x \in B} \bigg( \int_{\underline{x}}^{(\min\{\overline{x}_1, p_1 + x_2 - p_2 \},x_2)} \mathbbm{1}\{ t_2 - p_2 > t_1 - p_1 \land t_2 - p_2 \geq 0 \} dF(t) \bigg)^{N-1} (p_2 - c_2)dF(x) \\
+        &= 2 \int_{6}^{8} \int_{9}^{\min\{11, 10.1 + x_1 - 6 \}} \bigg( \int_{6}^{x_1} \int_{9}^{\min\{11, 10.1 + x_1 - 6 \}} \mathbbm{1}\{ t_1 - 6 > t_2 - 10.1 \} f(t_1,t_2) dt_2 dt_1 \bigg) (6 - .9) f(x_1,x_2) dx_2 dx_1 \\
+            &\quad+ 2 \int_{6}^{6.9} \int_{10.1 + x_1 - 6}^{11} \bigg( \int_6^{6 + x_2 - 10.1} \int_{10.1}^{x_2} \mathbbm{1}\{ t_2 - 10.1 > t_1 - 6 \} f(t_1,t_2) dt_2 dt_1 \bigg)(10.1 - 5) f(x_1,x_2) dx_2 dx_1 \\
+        &= \frac{(6 - .9)}{8} \int_{6}^{6.9} \int_{9}^{10.1 + x_1 - 6} \bigg( \int_{6}^{x_1} \int_{9}^{10.1 + t_1 - 6} dt_2 dt_1 \bigg) dx_2 dx_1 \\
+            &\quad+ \frac{(6 - .9)}{8} \int_{6.9}^{8} \int_9^{11} \bigg( \int_{6}^{x_1} \int_{9}^{\min\{11, 10.1 + t_1 - 6\}} dt_2 dt_1 \bigg) dx_2 dx_1 \\
+            &\quad+ \frac{(10.1 - 5)}{8} \int_{6}^{6.9} \int_{10.1 + x_1 - 6}^{11} \bigg( \int_{10.1}^{x_2} \int_{6}^{6 + t_2 - 10.1} dt_1 dt_2 \bigg) dx_2 dx_1 \\
+        &= 4.17\dots
+\end{align}
+
+
+
+
+\section{References}
+\printbibliography[heading=none]
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+

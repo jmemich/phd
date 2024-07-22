@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ebm_description.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ebm_description-blx.bib
+Database file #2: ../auctions-references.bib
+Repeated entry---line 260 of file ../auctions-references.bib
+ : @article{border1991implementation
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 760 of file ../auctions-references.bib
+ : @inproceedings{cai2016
+ :                       ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.13
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 7 entries,
+            6365 wiz_defined-function locations,
+            1452 strings with 14363 characters,
+and the built_in function-call counts, 39321 in all, are:
+= -- 2645
+> -- 802
+< -- 246
++ -- 831
+- -- 298
+* -- 3006
+:= -- 3984
+add.period$ -- 0
+call.type$ -- 7
+change.case$ -- 139
+chr.to.int$ -- 43
+cite$ -- 12
+duplicate$ -- 3808
+empty$ -- 3649
+format.name$ -- 407
+if$ -- 8362
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 0
+newline$ -- 241
+num.names$ -- 331
+pop$ -- 2098
+preamble$ -- 1
+purify$ -- 169
+quote$ -- 0
+skip$ -- 1350
+stack$ -- 0
+substring$ -- 4588
+swap$ -- 1100
+text.length$ -- 200
+text.prefix$ -- 6
+top$ -- 1
+type$ -- 226
+warning$ -- 0
+while$ -- 519
+width$ -- 0
+write$ -- 235
+(There were 2 error messages)

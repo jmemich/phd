@@ -1,0 +1,287 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage{esint}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{algorithm2e}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
+
+\usepackage[
+    backend=bibtex,
+    style=authoryear,
+    sorting=nyt,
+    autocite=inline
+]{biblatex}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\graphicspath{ {.} }
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\addbibresource{../auctions-references.bib}
+
+\newtheorem{definition}{Definition}
+\newtheorem{proposition}{Proposition}
+\newtheorem{condition}{Condition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{conjecture}{Conjecture}
+
+\newcounter{fig}
+
+\providecommand{\keywords}[1]{\textbf{Keywords:} #1}
+
+% ----- 
+
+% \title{Is The `Exclusive Buyer Mechanism' Optimal?}
+
+\title{EBM Description 2024-04-29}
+
+\doublespacing
+
+\begin{document}
+
+\maketitle
+
+% \section{Model}\label{sec_model}
+
+% In this section, I introduce the optimal multidimensional auction design problem for a single with multiple quality levels in addition to the specific \textit{exclusive buyer mechanism}. The formulation of the problem adopted here is drawn from Belloni, Lopomo and Wang \autocite*{belloni2010multidimensional} and is akin to other, canonical formulations of auction design in the multi-bidder, multi-item case (e.g., \cite{cai2016}). There is one seller wishing to sell one item with $j = 1,\dots,K$ quality levels to $i=1,\dots,N$ bidders. Bidder $i$'s valuation (their type) of quality level $j$ is denoted $X_j^i = [\underline{x}_j^i, \overline{x}_j^i] \subset \mathbb{R}_+$. Each bidder's vector of valuations is given by $X^i = \prod_j X_j^i$ and I will denote by $X = \prod_i X^i$. I will denote by $X^{-i}$ the types of all bidders except for $i$. Bidder $i$'s type is private information and is known only to themselves. 
+
+% Bidder $i$'s valuation for quality level $j$ is distributed according to the cumulative density function $F_j^i$. The joint density of all bidders' valuations of all quality grades is denoted $F$, and, again, denote by $F^{-i}$ the distribution of types of all bidders except bidder $i$. The joint density is known to the seller. It is assumed that $F$ is continuously differentiable. Furthermore, as is common in the setting of Myerson \autocite*{myerson1981optimal}, it is assumed that the distributions of bidders' valuations are independent and identical. However, a bidder's valuations across quality grades may be correlated.
+
+% A crucial step to solving the optimal auction design problem was the use of the \textit{revelation principle} which simplifies the search space for optimal mechanisms (see \cite[Lemma 1]{myerson1981optimal}). The revelation principle allows the auction designer to restrict their attention to a class of mechanisms called \textit{direct mechanisms}. Direct mechanisms are those where the bidders simultaneously and confidentially reveal their types to the seller and the seller decides who gets the object and how much each bidder must pay, as a function of their types.
+
+% Thus, a direct mechanism is described by a pair of functions $(q, p)$. The \textit{allocation function} $q:X\to[0,1]^{KN}$ specifies the probability $q_j^i(x)$ for some $x \in X$ that bidder $i$ receives the good with quality level $j$. Note that in deterministic mechanisms $q_j^i(x) \in \{0,1\}$ for all $x \in X$. The \textit{price function} $p:X\to\mathbb{R}^N$ specifies the amount each bidder pays (bidders might be required to pay even if they do not receive the good, as occurs in an `all-pay' auction).
+
+% The utility functions of the seller and bidders are risk-neutral and additively separable. The bidders' utilities are given by
+% \begin{equation}
+%     u^i(x) = \sum_j x_j^i q_j^i(x) - p^i(x)
+% \end{equation}
+% \noindent for all $x \in X$. Denote bidder $i$'s expected utility as
+% \begin{equation}\label{eq_expected_U}
+%     U^i(x^i) = \int_{X^{-i}} u^i(x^i,x^{-i}) dF^{-i}(x^{-i})
+% \end{equation}
+% \noindent for all $x^i \in X^i$. I assume for simplicity of presentation that costs are zero\footnote{\color{red}TODO add costs (or note these are simply another way of handling reserve prices...)}. The seller's utility function is given by
+% \begin{equation}
+%     u^0(x) = \sum_i p^i(x) - \sum_i \sum_j r_j q_j^i(x)  
+% \end{equation}
+% \noindent where $r$ is the seller's value estimate for the object, which is most commonly interpreted as the reserve price. Thus, the seller's expected utility is given by
+% \begin{equation}
+%     \int_X u^0(x) dF(x)
+% \end{equation}
+
+% However, not every pair of functions $(q,p)$ represents a \textit{feasible} auction mechanism. There are three types of constraints\footnote{Here, we outline (IR) and (IC) constraints when the solution concept is a Bayesian Nash equilibrium.} that must be imposed on $(q,p)$. 
+
+% First, since there is only one object to be allocated, the allocation function must satisfy the following feasibility conditions (F):
+% \begin{equation}\label{prob}
+%     \sum_i \sum_j q_j^i(x) \leq 1 \text{ and } q_j^i(x) \geq 0 \tag{F}
+% \end{equation}
+% \noindent for all $i=1,\dots,N$, $j=1,\dots,K$ and $x \in X$. Note that, in contrast to the multidimensional setting of a single good with multiple quality levels, in the multi-item case where the seller has $K$ goods to sell the probability conditions are given by $\sum_i q_j^i(x) \leq 1 \text{ and } q_j^i(x) \geq 0$ for all $i=1,\dots,N$, $j=1,\dots,K$ and $x \in X$.
+
+% Second, the mechanism $(p,q)$ must be \textit{individually rational} (IR) in the sense that every bidder has non-negative expected utility from participating in the mechanism. More formally,
+% \begin{equation}\label{ir}
+%     U^i(x^i) \geq 0 \tag{IR}
+% \end{equation}
+% \noindent for all bidders $i=1,\dots,N$ and all $x^i \in X^i$.
+
+% Third, the revelation mechanism can only be implemented if no bidder can expect to gain from lying about their type. If bidder $i$ misrepresents their true type $x^i$ with the lie $\widehat{x}^i$ their expected utility would be
+% \begin{equation}
+%     \int_{X^{-i}} \sum_j x_j^i q_j^i(\widehat{x}^i,x^{-i}) - p^i(\widehat{x}^i,x^{-i}) dF^{-i}(x^{-i})
+% \end{equation}
+% \noindent Thus, in a direct mechanism it is necessary to ensure
+% \begin{equation}\label{ic}
+%     U^i(x^i) \geq \int_{X^{-i}} \sum_j x_j^i q_j^i(\widehat{x}^i,x^{-i}) - p^i(\widehat{x}^i,x^{-i}) dF^{-i}(x^{-i}) \tag{IC}
+% \end{equation}
+% \noindent for all $i=1,\dots,N$ and $x^i, \widehat{x}^i \in X^i$. This final condition is known as \textit{Bayesian incentive compatibility}.
+
+% The revenue maximization problem faced by the seller is therefore
+% \begin{equation}
+% \begin{aligned}\label{eq_opt}
+%     \max_{p,q} &\int_X \bigg( \sum_i p^i(x)  - \sum_i \sum_j r_j q_j^i(x) \bigg) dF(x) \\
+%     &\text{subject to } (\ref{prob}), (\ref{ir}), (\ref{ic})
+% \end{aligned}  \tag{OPT} 
+% \end{equation}
+
+% \noindent which I shall refer to as \ref{eq_opt} throughout. 
+
+% It is possible to reformulate the objective function to remove the dependence of the dimensionality $N$. This is particularly helpful for designing approximation algorithms (see, for example, \cite{belloni2010multidimensional}). This is done using \textit{interim} variables $(Q, U)$, obtained by integrating out all but one type of buyer. The interim probability that buyer $i$ is awarded the object quality grade $j$ is
+% \begin{equation}
+%     Q_j^i(x^i) = \int_{X^{-i}} q_j^i(x^i,x^{-i}) dF^{-i}(x^{-i})
+% \end{equation}
+
+% \noindent and the interim expected utility of each buyer can therefore be defined as
+% \begin{equation}
+%     U^i(x^i) = \sum_j x_j^i Q_j^i(x^i) - \int_{X^{-i}} p^i(x^i,x^{-i}) dF^{-i}(x^{-i})
+% \end{equation}
+
+% It is then possible to rewrite the above constraints that used the \textit{ex-post} allocations and transfer functions $(q,p)$ in terms of interim variables $(Q,U)$. For each bidder $i$, the incentive-compatibility constraint \ref{ic} becomes:
+% \begin{equation}\label{iic}
+%     U^i(x^i) - U^i(\hat{x}^i) \geq \sum_j Q_j^i(x^i) (x_j^i - \hat{x}_j^i) \quad \forall x^i, \hat{x}^i \in X^i \times X^i \tag{IIC}
+% \end{equation}
+% \noindent Additionally, the interim individual rationality constraint becomes:
+% \begin{equation}\label{iir}
+%     U^i(x^i) \geq 0 \quad \forall x \in X \tag{IIR}
+% \end{equation}
+
+% Thus, since we only consider the case where all bidder's valuations are identically distributed (and, therefore, we can omit the superscript $i$) the objective function \ref{eq_opt} can be rewritten in terms of interim variables $(Q,U)$:
+% \begin{equation}
+% \begin{aligned}\label{eq_opt_interim}
+%     \max_{Q,U} &\int_X \bigg( \sum_j (x_j - r_j) Q_j(x) - U(x) \bigg) dF(x) \\
+%     &\text{subject to } (\ref{prob}), (\ref{iir}), (\ref{iic})
+% \end{aligned}  \tag{OPT$_*$} 
+% \end{equation}
+% \noindent Furthermore, the feasibility constraints (\ref{prob}) can be rewritten using \autocite{border1991implementation}\footnote{See Appendix \ref{appendix:algo} for details about how this affects computational performance.}.
+
+
+
+
+
+\subsection{Exclusive Buyer Mechanism}\label{subsec_exclusive buyer mechanism}
+
+We can now develop a formal description of the exclusive buyer mechanism by considering an analog of the single dimensional case. In the single dimensional case, a good is allocated according to a bidder's \textit{virtual value}, which is a function of the of the bidder's type representing the surplus that can be extracted from the bidder (see \cite{myerson1981optimal}). In the multidimensional case of a single good with multiple quality levels we can define a multidimensional analog of a single dimensional virtual value. For each bidder $i$ and each quality grade $j$ of the good we define a virtual value $\beta_j^i(x)$, which is also a function of each other bidder's types. For each bidder, we define $\beta^i = \max_j \beta_j^i$ as the maximum of the quality grade-specific virtual values. (Note, although the virtual values may depend on the reserve price, we omit the notational dependence on $r$ for clarity.) The key idea behind an exclusive buyer mechanism is that the good is allocated to the bidder $i$ with the largest $\beta^i$.
+
+This formulation of the exclusive buyer mechanism has its origins in the work of Brusco, Lopomo, and Marx \autocite*{brusco2011}, who first explored a similar mechanism in the specific case of two quality levels. Their mechanism can be understood as an auction where the buyers compete in a second price or ascending-bid auction (with reserve prices) for the right to be the only buyer and choose which quality grade to purchase. If a bidder wins the auction they can select between the lower quality grade of the item or the higher quality grade (and pay an additional price). Their mechanism was further elaborated in a follow up work \autocite{belloni2010multidimensional} from which a number of a number of conjectures in this chapter are drawn. 
+
+Formally, in our more general context, we can define the set of bidders who are allocated the good as follows. Allowing for ties, let $M$ denote the set of bidders with the largest $\beta^i$:
+\begin{equation}
+    M(x) = \{ i \ | \ \beta^i > \beta^{i'} \ \forall i' \neq i \text{ and } \beta^i \geq 0 \}
+\end{equation}
+\noindent Then the allocation $q$ is defined as:
+\begin{equation}
+    q_j^i(x) = \begin{cases}
+        \frac{1}{|M(x)|} & i \in M(x) \text{ and } \beta_j^i = \max_{j'} \beta_{j'}^i \\
+        0 & \text{otherwise}
+    \end{cases}
+\end{equation}
+\noindent Notice the similarity with the canonical single dimensional formulation of Myerson \autocite*{myerson1981optimal}. Again, it is worth emphasizing that at this juncture we have neither constrained the shape of function $\beta_j^i$ nor have we restricted its domain (it may also depend on other bidders' types). However, in this chapter, we consider the specific case of \textit{linear} virtual values defined by
+\begin{equation}
+    \beta_j^i = x_j^i - r_j
+\end{equation}
+\noindent where $r_j$ is the reserve price associated with quality level $j$. Surprisingly, as will become clear in Section \ref{sec_sim}, this simple functional form is a promising point of departure to explore the optimality of the exclusive buyer mechanism. 
+
+We can now express the revenue as a function of the allocation. Supposing there are no ties, note that the \textit{iterim} or \textit{expected} allocation $Q_j^i$ can be written:
+\begin{align}
+    Q_j^i(x^i) &= \int_{X^{-i}} q_j^i(x^i,x^{-i}) dF^{-i}(x^{-i}) \\
+        &= \underbrace{\mathbbm{1} \{ \beta_j^i \geq \beta_{j'}^i \ \forall j' \neq j \text{ and } \beta_j^i \geq 0 \}}_{\text{$j$ is $i$'s preferred quality grade}} \cdot \underbrace{\int_{X^{-i}} \mathbbm{1} \{ \beta^i > \beta^{i'} \ \forall i \neq i' \} dF^{-i}(x^{-i})}_{\text{probability $i$ wins}} \\
+        &= \mathbbm{1} \{ \beta_j^i \geq \beta_{j'}^i \ \forall j' \neq j \text{ and } \beta_j^i \geq 0 \} \cdot F(\max \{ \overline{x}_1, r_1 + \beta_j^i \}, \dots, x_j^i, \dots, \max \{ \overline{x}_J, r_J + \beta_j^i \})^{N-1}
+\end{align}
+\noindent Where we make use of the fact that, when bidders' valuations are independent and identically distributed, $F^{N-1}(x) = F(x)^{N-1}$. Since\footnote{\color{red}Doesn't this depend on the 1D result that $p^i(0)=0$ (ie, that IR binds at $\underline{x}$)?} 
+\begin{equation}
+    p^i(x) = {\color{red}\max_j} \int_0^{x^i} q_j^i(t, x^{-i}) dt
+\end{equation}
+\noindent We can write the iterim price $P^i(x^i)$ as
+\begin{equation}
+    P^i(x^i) = P^i(0) + {\color{red}\max_j} \int_0^{x^i} Q_j^i(t) dt
+\end{equation}
+\noindent Furthermore, we can rewrite the objective \ref{eq_opt} as follows:
+\begin{align}
+    \ref{eq_opt} &= \max_{p,q} \int_X \bigg( \sum_i p^i(x)  - \sum_i \sum_j r_j q_j^i(x) \bigg) dF(x) \\
+        &= \max_{p,q} \int_{X^i} \int_{X^{-i}} \sum_i \big( p^i(x^i, x^{-i}) - r \cdot q^i(x^i, x^{-i}) \big) dF^{-i}(x^{-i}) dF^i(x^i) \\
+        &= \max_{p,q} \int_{X^i} \sum_i \big( P^i(0) + \max_j Q_j^i(x^i) - r \cdot Q^i(x^i) \big) dF^i(x^i)
+\end{align}
+\noindent Note that, unlike in the single dimensional case, although $P^i(0)$ is a constant it is endogenously determined by the mechanism and causes complications for the optimization problem\footnote{For a related exposition of these complications see \autocite{jullien2000}.}. Ultimately, the expression above captures the seller's optimization problem when bidder valuations are independent and identically distributed and their virtual values $\beta_j^i$ are linear.
+
+
+
+% The exclusive buyer mechanism was introduced in \autocite{brusco2011} for the case of two quality levels. This can be understood as an auction where the buyers compete in a second price or ascending-bid auction (with reserve prices) for the right to be the only buyer and choose which quality grade to purchase. Here, I generalize the exclusive buyer mechanism to the case with an arbitrary number of bidders and then show how to recover an analog of the interim allocations from the objective function (\ref{eq_opt_interim}) which facilitate the qualitative comparison of the approximately optimal mechanism yielded by algorithm with a description of the exclusive buyer mechanism. This section is definitional: the objective is to express formal properties of the exclusive buyer mechanism clearly and generally to enable our exploration of its optimality. 
+
+% We can develop a formal description of the exclusive buyer mechanism by considering an analog of the single dimensional case. Following \autocite{myerson1981optimal}, each quality grade $j$ of the good has a \textit{virtual value} for each bidder $i$, which we denote $\beta_j^i(x_j^i)$. This virtual value is monotone increasing in $x_j^i$ and depends only on this argument. (Hereafter, we simply refer to each virtual value as $\beta_j^i$ without its argument). For each bidder, we define $\beta^i = \max_j \beta_j^i$ as the maximum of the quality grade-specific virtual values. (Note, although the virtual values depend on the reserve price, we omit the notational dependence on $r$ for clarity.)
+
+% From this, we can determine the winner of the auction as the highest $\beta^i$. Allowing for ties, we can denote the set of winners as follows:
+% \begin{equation}
+%     M(x) = \{ i \ | \ \beta^i > \beta^{i'} \ \forall i' \neq i \text{ and } \beta^i \geq 0 \}
+% \end{equation}
+% \noindent Then the allocation $q$ is defined as:
+% \begin{equation}
+%     q_j^i(x) = \begin{cases}
+%         \frac{1}{|M(x)|} & i \in M(x) \text{ and } \beta_j^i = \max_{j'} \beta_{j'}^i \\
+%         0 & \text{otherwise}
+%     \end{cases}
+% \end{equation}
+
+% To find the price $p(x)$, consider the simple problem of $N=1$ bidder with $J=2$ quality grades. Since we are constrained such that all paths of integration used to find the price $p(x)$ for $x \in X \subset \mathbb{R}^{NJ}$ must be equal, we can find the price by integrating along a simple path consisting of $\ell_1 : (0,0) \to (x_1, 0)$ and $\ell_2 : (x_1,0) \to (x_1, x_2)$. Without loss of generality let $x_2 - r_2 \geq x_1 - r_1$ and assume that all bids are above the reserve price (otherwise there would be no winner):
+% \begin{align}
+%     p(x) &= p(0) + \int_0^x q(t) dt \\
+%         &= p(0) + \int_{\ell_1(t)} q(\ell_1(t))\cdot \ell_1'(t) dt + \int_{\ell_2(t)} q(\ell_2(t))\cdot \ell_2'(t) dt \\
+%         &= p(0) + \int_{0}^{x_1} q_1(t,0) dt + \int_{0}^{x_2} q_2(x_1,t) dt \\
+%         &= p(0) + \int_{0}^{x_1} \mathbbm{1}\{t - r_1 \geq 0 \} dt + \int_{0}^{x_2} \mathbbm{1}\{t - r_2 \geq x_1 - r_1 \text{ and } t - r_2 \geq 0 \} dt \\
+%         &= {\color{red}p(0) + \beta_2}
+% \end{align}
+% \noindent Where $p(0)$ denotes the smallest reserve price\footnote{\color{red}TODO what is going on here...}.
+
+% We can also work with the interim formulations of the allocations for the exclusive buyer mechanism. As defined above,
+% \begin{align}
+%     Q_j(x) &= \int_{X^{-i}} q_j^i(x,x^{-i}) dF^{-i}(x^{-i}) \\
+%         &= \int_{\ell(x^{-i})} q_j^i(x, \ell(x^{-i})) \cdot \ell'(x^{-i}) dF^{-i}(x^{-i})
+% \end{align}
+% \noindent Which, for an arbitrary number of quality levels $J$, yields\footnote{In the event of ties where $\beta_1 = \beta_2$ then both allocations $Q_1,Q_2$ are equal and are half the value of $F^{N-1}(x_1,x_2)$.}:
+% \begin{equation}
+%     Q_j(x) = \mathbbm{1} \{ \beta_j \geq \beta_{j'} \ \forall j' \neq j \text{ and } \beta_j \geq 0 \} F^{N-1}(\max \{ \overline{x}_1, r_1 + \beta_j \}, \dots, x_j, \dots, \max \{ \overline{x}_J, r_J + \beta_j \})
+% \end{equation} 
+% \noindent Where, recall, $F^{N-1}(x_1,x_2) = F(x_1,x_2)^{N-1}$ since bidder's valuations are independent and identically distributed. Furthermore, the interim expected utility for each bidder can be calculated as:
+% \begin{align}
+%     U(x) &= \sum_j x_j Q_j(x) - \int_{X^{-i}} p^i(x,x^{-i}) dF^{-i}(x^{-i}) \\
+%         &= {\color{red}\max_j \int_{\underline{x}_j}^{x_j} Q_j(x_1,\dots,x_{j-1},t,x_{j+1},\dots,x_J) dt} 
+% \end{align}
+
+% \noindent {\color{red}What to do here...}
+
+
+% Lastly, note the expected revenue for a given reserve price $r$ is
+% \begin{equation}
+%     R(r) = \int_X p(x;r) dF(x)
+% \end{equation}
+% \noindent where $p$ is defined above. Additionally, this can be numerical approximated as
+% \begin{equation}
+%     R(r) \approx \sum_{x \in X_T} p(x;r) f(x)
+% \end{equation}
+% \noindent This expression is used below for the calculations of the expected revenue from the exclusive buyer mechanism.
+
+
+
+
+
+
+% More formally\footnote{\color{red}TODO go through this notation with alexey...}, in the case where there are two quality levels, for player $i$'s bid $x$ and any given \textit{reserve price} $r=(r_1,r_2)$\footnote{\color{red}TODO what about $N>2$?}, let
+% \begin{equation}
+%     \beta_1^i = x_1^i - r_1 \quad \text{and} \quad \beta_2^i = x_2^i - r_2
+% \end{equation}
+% Then, for bidder $i$ denote by $h(x^i;r) = \argmax_j \beta_j^i$ the largest difference between their bid $x^i$ and the reserve price $r$. Then, let $H(x;r)$ be the largest of these differences and $M(x;r)$ be the set of winners (i.e., those with a bid $x_j^i = H(x)$):
+% \begin{align}
+%     H(x;r) &= \max_i h(x^i;r) \\
+%     M(x;r) &= \{ i | H(x;r) = \beta_{h(x^i)}^i \geq 0 \}
+% \end{align}
+% \noindent and the allocation $q$ is
+% \begin{equation}
+%     q(x;r) = \begin{cases}
+%         \frac{1}{|M(x)|} & \beta_j^i = H(x) \\
+%         0 & \text{otherwise}
+%     \end{cases}
+% \end{equation}
+% \noindent Then for the winning bidder $i \in M(x;r)$, their payment is given by the function
+% \begin{equation}
+%     p^i(x;r) = r_{h(x^i)} + \max\{ H(x^{-i}), 0 \}
+% \end{equation}
+
+
+
+
+\section{References}
+\printbibliography[heading=none]
+
+
+
+\end{document}

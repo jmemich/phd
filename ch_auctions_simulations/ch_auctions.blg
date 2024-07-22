@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ch_auctions.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11394 items from 5000.
+Database file #1: ch_auctions-blx.bib
+Database file #2: auctions-references.bib
+Repeated entry---line 260 of file auctions-references.bib
+ : @article{border1991implementation
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 686 of file auctions-references.bib
+ : @article{mcafee1989
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 760 of file auctions-references.bib
+ : @inproceedings{cai2016
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 815 of file auctions-references.bib
+ : @misc{haghpanah2014
+ :                    ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.13
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 46 entries,
+            6365 wiz_defined-function locations,
+            1767 strings with 23087 characters,
+and the built_in function-call counts, 317411 in all, are:
+= -- 21477
+> -- 8370
+< -- 2068
++ -- 9182
+- -- 4356
+* -- 23063
+:= -- 32515
+add.period$ -- 0
+call.type$ -- 46
+change.case$ -- 1234
+chr.to.int$ -- 247
+cite$ -- 90
+duplicate$ -- 31880
+empty$ -- 28179
+format.name$ -- 3204
+if$ -- 64979
+int.to.chr$ -- 0
+int.to.str$ -- 136
+missing$ -- 0
+newline$ -- 1793
+num.names$ -- 2698
+pop$ -- 15716
+preamble$ -- 1
+purify$ -- 1483
+quote$ -- 0
+skip$ -- 10433
+stack$ -- 0
+substring$ -- 36602
+swap$ -- 8836
+text.length$ -- 1391
+text.prefix$ -- 45
+top$ -- 1
+type$ -- 1552
+warning$ -- 0
+while$ -- 4086
+width$ -- 0
+write$ -- 1748
+(There were 4 error messages)

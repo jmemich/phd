@@ -1,0 +1,137 @@
+% see: https://github.com/bamos/thesis/blob/master/thesis.tex
+
+\documentclass{cmuthesis}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{bbm}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{bm}
+\usepackage{esint}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{algorithm2e}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
+
+\usepackage[
+    backend=bibtex,
+    style=authoryear,
+    sorting=nyt,
+    autocite=inline
+]{biblatex}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+\addbibresource{references.bib}
+
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{proposition}{Proposition}
+\newtheorem{condition}{Condition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{conjecture}{Conjecture}
+
+% \draftstamp{\today}{DRAFT}
+
+\newcounter{fig}
+
+% ----- 
+
+\begin{document}
+\frontmatter
+
+\pagestyle{empty}
+
+\title{{\bf Essays in Design Economics}}
+\author{James Michelson}
+\date{July 2024}
+\Year{2024}
+% \trnumber{???}
+
+\committee{
+\begin{tabular}{rl}
+Kevin Zollman, Chair & \textit{Carnegie Mellon University} \\
+Alexey Kushnir, Chair & \textit{Carnegie Mellon University} \\
+Vincent Conitzer & \textit{Carnegie Mellon University} \\
+\end{tabular}
+}
+
+% \support{}
+% \disclaimer{}
+
+% \keywords{philosophy of science, auction theory, computational social science, mechanism design, philosophy of economics}
+
+
+\maketitle
+
+\begin{dedication}
+\normalfont{``Philosophers have hitherto only interpreted the world in various ways; the point, however, is to change it.''}\\
+\hfill \normalfont{---Karl Marx,} \textit{Theses on Feuerbach}
+\newline
+\vspace{1cm}
+\newline
+\normalfont{``Yes, I do think we are simply the tellers of fables, but is that not wonderful?''}\\
+\hfill \normalfont{---Ariel Rubinstein, `Dilemmas of an Economic Theorist'}
+\end{dedication}
+
+
+\begin{abstract}
+This thesis contains two essays in philosophy of science on the value and application of economic theory and one essay in microeconomics on optimal multidimensional auction design.
+ 
+On the topic of the value of economic theory in design economics, I propose a philosophical reformulation of scientific realism that is appropriate to the scientific domain of economics (chapter \ref{ch_fables}). In virtue of this formulation, I argue that economic theory explains the successes of design economics.
+
+In chapter \ref{ch_reflexivity}, I advance a unified theory of observer effects across the social sciences, a problem I call \textit{reflexive measurement}. This theoretical understanding of the role of reflexivity extends more generally to all aspects of science including prediction and theorizing. I also examine the role of economic theory in addressing this problem.
+
+In addition to these two philosophical contributions, chapter \ref{ch_auctions} is an extended exploration of optimal auction design in the multidimensional setting of a single good with multiple quality levels using simulations. This work examines whether the \textit{exclusive-buyer mechanism} is optimal and offers several conjectures concerning qualitative properties of optimal mechanisms in this analytically intractable setting.
+\end{abstract}
+
+
+
+
+
+\begin{acknowledgments}
+I want to begin by thanking my friends and colleagues in Pittsburgh: Dejan Makovec, Brendan Fleig-Goldstein, Bele Wollesen, Mason Broxham, Andrew Warren, Gal Ben-Porath, Nil-Jana Akpinar, Fernando Larrain, Zeyu Tang, Sam Mark, Carly Medina, Max Siemers. Without you this journey would have been immeasurably worse.
+
+My debt of gratitude also extends those to who were a little further away: Marina Dubova, Tim Cejka, Adrianna Kayla Lee, Agne Sabaliauskaite, Giovanna Vitelli, Hannah Schigutt, John Davis, Marina Michelson, Ola Topczewska, Marina Michelson, Rawle Michelson. Your support was invaluable.
+
+% Robin Mejia was instrumental in developing the examples for chapter \ref{ch_reflexivity}
+
+I have also benefitted enormously from faculty who've advised and mentored me throughout my time in Pittsbrugh. David Danks was a fantanstic supervisor for my Masters degree and continued to offer sage advice throughout my time at CMU. David Childers has been source of invaluable help and patience as I've explored philosophical problems in economics well beyond the scope of this thesis. Vincent Conitzer was able to offer incredible advice and feedback in \textit{both} auction theory and philosophy. Kevin Zollman has been my supervisor throughout my time at CMU and has been as unfailing in his generosity as he has been insightful in his feedback. Finally, Alexey Kushnir took a gamble on a philosopher with a programming habit early in my PhD. Without that decision, this thesis would not exist.
+
+Pittsburgh has been a wonderful place to complete a PhD. I am grateful for the flora and fauna responsible for keeping me healthy and happy throughout my time here: from Greta, the groundhog living in my backyard, to peaceful summer evenings spent Schenley Park. Additionally, special thanks to Akshay Venkatesh, Lindsey Graff, Vyas Sekar, Christopher Philips, and Frank Pfenning. I pray your squash game lives to regret my departure.
+\end{acknowledgments}
+
+
+\pagestyle{plain}
+
+\tableofcontents
+\addtocontents{toc}{\vspace*{-1cm}}
+% \listoffigures
+\addtocontents{lof}{\vspace*{-1cm}}
+% \listoftables
+% \listofalgorithms
+
+\mainmatter
+
+\include{sections/intro}
+\include{sections/fables}
+\include{sections/auctions}
+\include{sections/reflexivity}
+\include{sections/conclusion}
+
+\include{sections/bib}
+
+\include{sections/appendix}
+
+\end{document}

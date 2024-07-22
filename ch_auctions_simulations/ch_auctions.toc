@@ -1,0 +1,43 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Literature Review}{5}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Model}{9}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Exclusive Buyer Mechanism}{12}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Conjectures and Simulations}{14}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Methodology}{14}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Conjectures}{16}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Simulations}{17}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}Symmetric, independent, and uniform}{18}{subsubsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}Symmetric, independent, and non-uniform setting}{21}{subsubsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.3}Symmetric, correlated setting}{23}{subsubsection.4.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.4}Asymmetric, independent, and uniform setting}{24}{subsubsection.4.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.5}Asymmetric, independent, and non-uniform setting}{26}{subsubsection.4.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Discussion \& Conclusion}{28}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Conjecture \ref {conj_rev}}{28}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Conjecture \ref {conj_alloc}}{28}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Conjecture \ref {conj_excl_zero}}{30}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Conjecture \ref {conj_excl_n}}{31}{subsection.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Conclusion}{31}{subsection.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}References}{33}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Appendix: Approximation Algorithm}{37}{section.7}%
