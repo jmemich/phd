@@ -1,0 +1,1610 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{alexandrova2009}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=AA}{%
+         family={Alexandrova},
+         familyi={A\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Northcott},
+         familyi={N\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{AANR1}
+    \strng{fullhash}{AANR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{{The Oxford Handbook of Philosophy of Economics}}
+    \verb{doi}
+    \verb 10.1093/oxfordhb/9780195189254.003.0011
+    \endverb
+    \field{isbn}{9780195189254}
+    \field{title}{{306 Progress in Economics: Lessons from the Spectrum
+  Auctions}}
+    \verb{url}
+    \verb https://doi.org/10.1093/oxfordhb/9780195189254.003.0011
+    \endverb
+    \field{month}{03}
+    \field{year}{2009}
+  \endentry
+
+  \entry{alphabet2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Alphabet},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Alphabet Annual Report}
+    \verb{url}
+    \verb https://abc.xyz/assets/5a/ae/29f710e646b49ee3d6b63c4dc3a0/goog-10-k-2
+    \verb 023.pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{armstrong1996multiproduct}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Armstrong},
+         familyi={A\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Econometric Society}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1}
+    \field{pages}{51\bibrangedash 75}
+    \field{title}{Multiproduct nonlinear pricing}
+    \field{volume}{64}
+    \field{journaltitle}{Econometrica}
+    \field{year}{1996}
+    \warn{\item Invalid format of field 'date' \item Can't use 'journaltitle' +
+  'journal' \item Invalid format of field 'date'}
+  \endentry
+
+  \entry{basu2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BT}{%
+         family={Basu},
+         familyi={B\bibinitperiod},
+         given={Tanya},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BT1}
+    \strng{fullhash}{BT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{New Google Parent Company Drops 'Don't Be Evil' Motto}
+    \verb{url}
+    \verb https://time.com/4060575/alphabet-google-dont-be-evil/
+    \endverb
+    \field{journaltitle}{Time}
+    \field{day}{04}
+    \field{month}{10}
+    \field{year}{2015}
+    \field{urlday}{10}
+    \field{urlmonth}{06}
+    \field{urlyear}{2023}
+  \endentry
+
+  \entry{bates2022}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BS}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JMI}{%
+         family={Jordan},
+         familyi={J\bibinitperiod},
+         given={Michael\bibnamedelima I.},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sklar},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJA}{%
+         family={Soloff},
+         familyi={S\bibinitperiod},
+         given={Jake\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BS+1}
+    \strng{fullhash}{BSJMISMSJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{eprint}
+    \verb 2205.06812
+    \endverb
+    \field{title}{Principal-Agent Hypothesis Testing}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.GT}
+    \field{year}{2022}
+  \endentry
+
+  \entry{beinhocker2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BED}{%
+         family={Beinhocker},
+         familyi={B\bibinitperiod},
+         given={Eric\bibnamedelima D.},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Routledge}%
+    }
+    \strng{namehash}{BED1}
+    \strng{fullhash}{BED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1080/1350178X.2013.859403
+    \endverb
+    \field{number}{4}
+    \field{pages}{330\bibrangedash 342}
+    \field{title}{Reflexivity, complexity, and the nature of social science}
+    \field{volume}{20}
+    \field{journaltitle}{Journal of Economic Methodology}
+    \field{year}{2013}
+  \endentry
+
+  \entry{belloni2010multidimensional}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BA}{%
+         family={Belloni},
+         familyi={B\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lopomo},
+         familyi={L\bibinitperiod},
+         given={Giuseppe},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shouqiang},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {INFORMS}%
+    }
+    \strng{namehash}{BALGWS1}
+    \strng{fullhash}{BALGWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4-part-2}
+    \field{pages}{1079\bibrangedash 1089}
+    \field{title}{Multidimensional mechanism design: Finite-dimensional
+  approximations and efficient computation}
+    \field{volume}{58}
+    \field{journaltitle}{Operations Research}
+    \field{year}{2010}
+  \endentry
+
+  \entry{binmore2002}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BK}{%
+         family={Binmore},
+         familyi={B\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Klemperer},
+         familyi={K\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BKKP1}
+    \strng{fullhash}{BKKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb https://doi.org/10.1111/1468-0297.00020
+    \endverb
+    \field{number}{478}
+    \field{pages}{C74\bibrangedash C96}
+    \field{title}{The Biggest Auction Ever: The Sale of The British 3G Telecom
+  Licenses}
+    \field{volume}{112}
+    \field{journaltitle}{The Economic Journal}
+    \field{year}{2002}
+  \endentry
+
+  \entry{buck1963}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BRC}{%
+         family={Buck},
+         familyi={B\bibinitperiod},
+         given={Roger\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BRC1}
+    \strng{fullhash}{BRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1963}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1086/287955
+    \endverb
+    \field{number}{4}
+    \field{pages}{359\bibrangedash 369}
+    \field{title}{Reflexive Predictions}
+    \field{volume}{30}
+    \field{journaltitle}{Philosophy of Science}
+    \field{year}{1963}
+  \endentry
+
+  \entry{cejka2022}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=CT}{%
+         family={Cejka},
+         familyi={C\bibinitperiod},
+         given={Timotej},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CT1}
+    \strng{fullhash}{CT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Reflexivity of Predictions as a Statistical Bias}
+    \verb{url}
+    \verb http://philsci-archive.pitt.edu/21326/
+    \endverb
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{daskalakis2017strong}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DC}{%
+         family={Daskalakis},
+         familyi={D\bibinitperiod},
+         given={Constantinos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Deckelbaum},
+         familyi={D\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Tzamos},
+         familyi={T\bibinitperiod},
+         given={Christos},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{DCDATC1}
+    \strng{fullhash}{DCDATC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{3}
+    \field{pages}{735\bibrangedash 767}
+    \field{title}{Strong duality for a multiple-good monopolist}
+    \field{volume}{85}
+    \field{journaltitle}{Econometrica}
+    \field{year}{2017}
+  \endentry
+
+  \entry{dekel2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DO}{%
+         family={Dekel},
+         familyi={D\bibinitperiod},
+         given={Ofer},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PAD}{%
+         family={Procaccia},
+         familyi={P\bibinitperiod},
+         given={Ariel\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DOFFPAD1}
+    \strng{fullhash}{DOFFPAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jcss.2010.03.003
+    \endverb
+    \field{number}{8}
+    \field{pages}{759\bibrangedash 777}
+    \field{title}{Incentive compatible regression learning}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0022000010000309
+    \endverb
+    \field{volume}{76}
+    \field{journaltitle}{Journal of Computer and System Sciences}
+    \field{year}{2010}
+  \endentry
+
+  \entry{friedman1953}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Friedman},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Chicago Press}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1953}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{isbn}{9780226264035}
+    \field{series}{A Phoenix book. Business economics}
+    \field{title}{Essays in Positive Economics}
+    \field{year}{1953}
+  \endentry
+
+  \entry{goodhart1984}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=GCAE}{%
+         family={Goodhart},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima A.\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Macmillan Education UK}%
+    }
+    \strng{namehash}{GCAE1}
+    \strng{fullhash}{GCAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{Monetary Theory and Practice: The UK Experience}
+    \verb{doi}
+    \verb 10.1007/978-1-349-17295-5_4
+    \endverb
+    \field{title}{Problems of Monetary Management: The UK Experience}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-1-349-17295-5_4
+    \endverb
+    \list{location}{1}{%
+      {London}%
+    }
+    \field{year}{1984}
+  \endentry
+
+  \entry{grunberg1986}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GE}{%
+         family={Grunberg},
+         familyi={G\bibinitperiod},
+         given={Emile},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GE1}
+    \strng{fullhash}{GE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb https://doi.org/10.1111/j.1536-7150.1986.tb01946.x
+    \endverb
+    \field{number}{4}
+    \field{pages}{475\bibrangedash 488}
+    \field{title}{Predictability and Reflexivity}
+    \field{volume}{45}
+    \field{journaltitle}{The American Journal of Economics and Sociology}
+    \field{year}{1986}
+  \endentry
+
+  \entry{guala2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GF}{%
+         family={Guala},
+         familyi={G\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GF1}
+    \strng{fullhash}{GF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb https://doi.org/10.1016/S0039-3681(01)00008-5
+    \endverb
+    \field{issn}{0039-3681}
+    \field{number}{3}
+    \field{pages}{453\bibrangedash 477}
+    \field{title}{Building economic machines: The FCC auctions}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0039368101000085
+    \endverb
+    \field{volume}{32}
+    \field{journaltitle}{Studies in History and Philosophy of Science Part A}
+    \field{year}{2001}
+  \endentry
+
+  \entry{hacking1983}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HI}{%
+         family={Hacking},
+         familyi={H\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{HI1}
+    \strng{fullhash}{HI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1983}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1017/CBO9780511814563
+    \endverb
+    \field{title}{Representing and Intervening: Introductory Topics in the
+  Philosophy of Natural Science}
+    \field{year}{1983}
+  \endentry
+
+  \entry{hardt2016}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HM}{%
+         family={Hardt},
+         familyi={H\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Megiddo},
+         familyi={M\bibinitperiod},
+         given={Nimrod},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Papadimitriou},
+         familyi={P\bibinitperiod},
+         given={Christos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wootters},
+         familyi={W\bibinitperiod},
+         given={Mary},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{learning theory, classification, game theory}
+    \strng{namehash}{HM+1}
+    \strng{fullhash}{HMMNPCWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{booktitle}{Proceedings of the 2016 ACM Conference on Innovations in
+  Theoretical Computer Science}
+    \verb{doi}
+    \verb 10.1145/2840728.2840730
+    \endverb
+    \field{isbn}{9781450340571}
+    \field{pages}{111–122}
+    \field{series}{ITCS '16}
+    \field{title}{Strategic Classification}
+    \list{location}{1}{%
+      {Cambridge, Massachusetts, USA}%
+    }
+    \field{year}{2016}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{healy2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HK}{%
+         family={Healy},
+         familyi={H\bibinitperiod},
+         given={Kieran},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HK1}
+    \strng{fullhash}{HK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1017/S0003975615000107
+    \endverb
+    \field{number}{2}
+    \field{pages}{175–205}
+    \field{title}{The Performativity of Networks}
+    \field{volume}{56}
+    \field{journaltitle}{European Journal of Sociology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{kopec2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KM}{%
+         family={Kopec},
+         familyi={K\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {[The University of Chicago Press, Philosophy of Science Association]}%
+    }
+    \strng{namehash}{KM1}
+    \strng{fullhash}{KM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{5}
+    \field{pages}{1249\bibrangedash 1259}
+    \field{title}{A More Fulfilling (and Frustrating) Take on Reflexive
+  Predictions}
+    \field{volume}{78}
+    \field{journaltitle}{Philosophy of Science}
+    \field{year}{2011}
+  \endentry
+
+  \entry{lackner2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Lackner},
+         familyi={L\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Skowron},
+         familyi={S\bibinitperiod},
+         given={Piotr},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMSP1}
+    \strng{fullhash}{LMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jet.2020.105173
+    \endverb
+    \field{issn}{0022-0531}
+    \field{pages}{105173}
+    \field{title}{Consistent approval-based multi-winner rules}
+    \field{volume}{192}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lowe2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LC}{%
+         family={Lowe},
+         familyi={L\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LC1}
+    \strng{fullhash}{LC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1177/0048393118767087
+    \endverb
+    \field{number}{4}
+    \field{pages}{343\bibrangedash 363}
+    \field{title}{The Significance of Self-Fulfilling Science}
+    \field{volume}{48}
+    \field{journaltitle}{Philosophy of the Social Sciences}
+    \field{year}{2018}
+  \endentry
+
+  \entry{luce95}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LRD}{%
+         family={Luce},
+         familyi={L\bibinitperiod},
+         given={R.\bibnamedelima Duncan},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LRD1}
+    \strng{fullhash}{LRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1146/annurev.ps.46.020195.000245
+    \endverb
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 27}
+    \field{title}{Four Tensions Concerning Mathematical Modeling in Psychology}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev.ps.46.020195.000245
+    \endverb
+    \field{volume}{46}
+    \field{journaltitle}{Annual Review of Psychology}
+    \field{year}{1995}
+  \endentry
+
+  \entry{maki2009}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=MI}{%
+         family={M{\"a}ki},
+         familyi={M\bibinitperiod},
+         given={{Ismo Uskali}},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{MI1}
+    \strng{fullhash}{MI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{booktitle}{{The Oxford Handbook of Philosophy of Economics}}
+    \verb{doi}
+    \verb 10.1093/oxfordhb/9780195189254.003.0004
+    \endverb
+    \field{isbn}{9780195189254}
+    \field{title}{{Realistic Realism about Unrealistic Models}}
+    \field{month}{03}
+    \field{year}{2009}
+  \endentry
+
+  \entry{merton1948}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MRK}{%
+         family={Merton},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MRK1}
+    \strng{fullhash}{MRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1948}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{pages}{193\bibrangedash 210}
+    \field{title}{The Self-Fulfilling Prophecy}
+    \field{volume}{8}
+    \field{journaltitle}{Antioch Review}
+    \field{year}{1948}
+  \endentry
+
+  \entry{morgan2001}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MMS}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Mary\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMS1}
+    \strng{fullhash}{MMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1215/00182702-33-Suppl_1-235
+    \endverb
+    \field{number}{1}
+    \field{pages}{235\bibrangedash 251}
+    \field{title}{{Making Measuring Instruments}}
+    \field{volume}{33}
+    \field{journaltitle}{History of Political Economy}
+    \field{month}{12}
+    \field{year}{2001}
+  \endentry
+
+  \entry{oesterheld23}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=OC}{%
+         family={Oesterheld},
+         familyi={O\bibinitperiod},
+         given={Caspar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Treutlein},
+         familyi={T\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={Emery},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={Rubi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=ERJ}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Robin\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Shpitser},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{OC+1}
+    \strng{fullhash}{OCTJCEHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{booktitle}{Proceedings of the Thirty-Ninth Conference on Uncertainty
+  in Artificial Intelligence}
+    \field{pages}{1564\bibrangedash 1574}
+    \field{series}{Proceedings of Machine Learning Research}
+    \field{title}{Incentivizing honest performative predictions with proper
+  scoring rules}
+    \verb{url}
+    \verb https://proceedings.mlr.press/v216/oesterheld23a.html
+    \endverb
+    \field{volume}{216}
+    \field{year}{2023}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{orne1962}{article}{}
+    \name{author}{1}{}{%
+      {{hash=OMT}{%
+         family={Orne},
+         familyi={O\bibinitperiod},
+         given={M.\bibnamedelima T.},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OMT1}
+    \strng{fullhash}{OMT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1962}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \verb{doi}
+    \verb 10.1037/h0043424
+    \endverb
+    \field{number}{11}
+    \field{pages}{776–783}
+    \field{title}{On the social psychology of the psychological experiment:
+  With particular reference to demand characteristics and their implications}
+    \field{volume}{17}
+    \field{journaltitle}{American Psychologist}
+    \field{year}{1962}
+  \endentry
+
+  \entry{pavlov2011optimal}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PG}{%
+         family={Pavlov},
+         familyi={P\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter}%
+    }
+    \strng{namehash}{PG1}
+    \strng{fullhash}{PG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{1}
+    \field{title}{Optimal mechanism for selling two goods}
+    \field{volume}{11}
+    \field{journaltitle}{The BE Journal of Theoretical Economics}
+    \field{year}{2011}
+  \endentry
+
+  \entry{perdomo2020}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=PJ}{%
+         family={Perdomo},
+         familyi={P\bibinitperiod},
+         given={Juan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zrnic},
+         familyi={Z\bibinitperiod},
+         given={Tijana},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MDC}{%
+         family={Mendler-D{\"u}nner},
+         familyi={M\bibinithyphendelim D\bibinitperiod},
+         given={Celestine},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hardt},
+         familyi={H\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=IHD}{%
+         family={III},
+         familyi={I\bibinitperiod},
+         given={Hal\bibnamedelima Daumé},
+         giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Aarti},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{PJ+1}
+    \strng{fullhash}{PJZTMDCHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Proceedings of the 37th International Conference on
+  Machine Learning}
+    \field{pages}{7599\bibrangedash 7609}
+    \field{series}{Proceedings of Machine Learning Research}
+    \field{title}{Performative Prediction}
+    \verb{url}
+    \verb https://proceedings.mlr.press/v119/perdomo20a.html
+    \endverb
+    \field{volume}{119}
+    \field{year}{2020}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{popper1953}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PK}{%
+         family={Popper},
+         familyi={P\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harper Torchbooks}%
+    }
+    \strng{namehash}{PK1}
+    \strng{fullhash}{PK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1953}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{The Poverty of Historicism}
+    \field{year}{1953}
+  \endentry
+
+  \entry{prendergast2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PC}{%
+         family={Prendergast},
+         familyi={P\bibinitperiod},
+         given={Canice},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PC1}
+    \strng{fullhash}{PC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1086/720332
+    \endverb
+    \field{number}{8}
+    \field{pages}{1993\bibrangedash 2017}
+    \field{title}{The Allocation of Food to Food Banks}
+    \field{volume}{130}
+    \field{journaltitle}{Journal of Political Economy}
+    \field{year}{2022}
+  \endentry
+
+  \entry{putnam1975}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PH}{%
+         family={Putnam},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{PH1}
+    \strng{fullhash}{PH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1975}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{isbn}{9780521206655}
+    \field{series}{Cambridge Paperback Library}
+    \field{title}{Mathematics, Matter and Method: Volume 1, Philosophical
+  Papers}
+    \field{year}{1975}
+  \endentry
+
+  \entry{rochet1998ironing}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJC}{%
+         family={Rochet},
+         familyi={R\bibinitperiod},
+         given={Jean-Charles},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Chon{\'e}},
+         familyi={C\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Econometric Society}%
+    }
+    \strng{namehash}{RJCCP1}
+    \strng{fullhash}{RJCCP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{4}
+    \field{pages}{783\bibrangedash 826}
+    \field{title}{Ironing, sweeping, and multidimensional screening}
+    \field{volume}{66}
+    \field{journaltitle}{Econometrica}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{romanos1973}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RGD}{%
+         family={Romanos},
+         familyi={R\bibinitperiod},
+         given={George\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{RGD1}
+    \strng{fullhash}{RGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1973}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1086/288499
+    \endverb
+    \field{number}{1}
+    \field{pages}{97–109}
+    \field{title}{Reflexive Predictions}
+    \field{volume}{40}
+    \field{journaltitle}{Philosophy of Science}
+    \field{year}{1973}
+  \endentry
+
+  \entry{rosenthal1966}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RR}{%
+         family={Rosenthal},
+         familyi={R\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Appleton-Century-Crofs}%
+    }
+    \strng{namehash}{RR1}
+    \strng{fullhash}{RR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1966}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Experimenter effects in behavioral research}
+    \field{year}{1966}
+  \endentry
+
+  \entry{rosenthal1968}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RR}{%
+         family={Rosenthal},
+         familyi={R\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jacobson},
+         familyi={J\bibinitperiod},
+         given={Lenore},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RRJL1}
+    \strng{fullhash}{RRJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1968}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb https://doi.org/10.1007/BF02322211
+    \endverb
+    \field{pages}{16\bibrangedash 20}
+    \field{title}{Pygmalion in the classroom}
+    \field{volume}{3}
+    \field{journaltitle}{The Urban Review}
+    \field{year}{1968}
+  \endentry
+
+  \entry{roth2012surveys}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=RA}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schoenebeck},
+         familyi={S\bibinitperiod},
+         given={Grant},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RASG1}
+    \strng{fullhash}{RASG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{eprint}
+    \verb 1203.0353
+    \endverb
+    \field{title}{Conducting Truthful Surveys, Cheaply}
+    \verb{url}
+    \verb https://arxiv.org/abs/1203.0353
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.GT}
+    \field{year}{2012}
+  \endentry
+
+  \entry{roth2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RAE}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Alvin\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAE1}
+    \strng{fullhash}{RAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb https://doi.org/10.1111/1468-0262.00335
+    \endverb
+    \field{number}{4}
+    \field{pages}{1341\bibrangedash 1378}
+    \field{title}{The Economist as Engineer: Game Theory, Experimentation, and
+  Computation as Tools for Design Economics}
+    \field{volume}{70}
+    \field{journaltitle}{Econometrica}
+    \field{year}{2002}
+  \endentry
+
+  \entry{roth2007hbs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RAE}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Alvin\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAE1}
+    \strng{fullhash}{RAE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{The Art of Designing Markets}
+    \verb{url}
+    \verb https://hbr.org/2007/10/the-art-of-designing-markets
+    \endverb
+    \field{journaltitle}{Harvard Business Review}
+    \field{month}{10}
+    \field{year}{2007}
+  \endentry
+
+  \entry{roth1999}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RAE}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Alvin\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Peranson},
+         familyi={P\bibinitperiod},
+         given={Elliott},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAEPE1}
+    \strng{fullhash}{RAEPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1257/aer.89.4.748
+    \endverb
+    \field{number}{4}
+    \field{pages}{748\bibrangedash 780}
+    \field{title}{The Redesign of the Matching Market for American Physicians:
+  Some Engineering Aspects of Economic Design}
+    \verb{url}
+    \verb https://www.aeaweb.org/articles?id=10.1257/aer.89.4.748
+    \endverb
+    \field{volume}{89}
+    \field{journaltitle}{American Economic Review}
+    \field{year}{1999}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{roth2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RAE}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Alvin\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WRB}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Robert\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RAEWRB1}
+    \strng{fullhash}{RAEWRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1257/jep.33.3.118
+    \endverb
+    \field{number}{3}
+    \field{pages}{118\bibrangedash 43}
+    \field{title}{How Market Design Emerged from Game Theory: A Mutual
+  Interview}
+    \verb{url}
+    \verb https://www.aeaweb.org/articles?id=10.1257/jep.33.3.118
+    \endverb
+    \field{volume}{33}
+    \field{journaltitle}{Journal of Economic Perspectives}
+    \field{year}{2019}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{rubinstein2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rubinstein},
+         familyi={R\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {[Wiley, Econometric Society]}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{issn}{00129682, 14680262}
+    \field{number}{4}
+    \field{pages}{865\bibrangedash 883}
+    \field{title}{Dilemmas of an Economic Theorist}
+    \verb{url}
+    \verb http://www.jstor.org/stable/3805911
+    \endverb
+    \field{volume}{74}
+    \field{journaltitle}{Econometrica}
+    \field{year}{2006}
+    \field{urlday}{22}
+    \field{urlmonth}{04}
+    \field{urlyear}{2024}
+  \endentry
+
+  \entry{rubinstein2012}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Rubinstein},
+         familyi={R\bibinitperiod},
+         given={Ariel},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Open Book}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{isbn}{9781906924775}
+    \field{series}{DOAB Directory of Open Access Books}
+    \field{title}{Economic Fables}
+    \field{year}{2012}
+  \endentry
+
+  \entry{runhardt2023}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RRW}{%
+         family={Runhardt},
+         familyi={R\bibinitperiod},
+         given={Rosa\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RRW1}
+    \strng{fullhash}{RRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1177/00483931221150487
+    \endverb
+    \field{number}{2}
+    \field{pages}{122\bibrangedash 141}
+    \field{title}{Legitimate Reactivity in Measuring Social Phenomena: Race and
+  the Census}
+    \field{volume}{53}
+    \field{journaltitle}{Philosophy of the Social Sciences}
+    \field{year}{2023}
+  \endentry
+
+  \entry{soros2013}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Soros},
+         familyi={S\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Routledge}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.1080/1350178X.2013.859415
+    \endverb
+    \field{number}{4}
+    \field{pages}{309\bibrangedash 329}
+    \field{title}{Fallibility, reflexivity, and the human uncertainty
+  principle}
+    \field{volume}{20}
+    \field{journaltitle}{Journal of Economic Methodology}
+    \field{year}{2013}
+  \endentry
+
+  \entry{spiegler2024}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SR}{%
+         family={Spiegler},
+         familyi={S\bibinitperiod},
+         given={Ran},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The MIT Press}%
+    }
+    \strng{namehash}{SR1}
+    \strng{fullhash}{SR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{doi}
+    \verb 10.7551/mitpress/14884.001.0001
+    \endverb
+    \verb{eprint}
+    \verb https://direct.mit.edu/book-pdf/2362281/book\_9780262379038.pdf
+    \endverb
+    \field{isbn}{9780262379038}
+    \field{title}{{The Curious Culture of Economic Theory}}
+    \verb{url}
+    \verb https://doi.org/10.7551/mitpress/14884.001.0001
+    \endverb
+    \field{month}{04}
+    \field{year}{2024}
+  \endentry
+
+  \entry{woodward1989}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Woodward},
+         familyi={W\bibinitperiod},
+         given={Jim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{3}
+    \field{pages}{393\bibrangedash 472}
+    \field{title}{Data and Phenomena}
+    \field{volume}{79}
+    \field{journaltitle}{Synthese}
+    \field{year}{1989}
+  \endentry
+\enddatalist
+\endinput

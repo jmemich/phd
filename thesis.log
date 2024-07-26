@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  21 JUL 2024 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  25 JUL 2024 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,310 +1309,329 @@ Chapter 2.
 
 
 
-] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-
-LaTeX Warning: Citation 'myerson1981' on page 16 undefined on input line 298.
-
-[16] [17] [18]) [19]
+] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]) [18]
 \openout2 = `sections/auctions.aux'.
 
- (./sections/auctions.tex [20
 
-
-
-]
+(./sections/auctions.tex
 Chapter 3.
-[21] [22] [23] [24] [25] [26pdfTeX warning (ext4): destination with the same id
-entifier (name{equation.3.3.5}) has been already used, duplicate ignored
+[19
+
+
+
+] [20] [21] [22] [23] [24pdfTeX warning (ext4): destination with the same ident
+ifier (name{equation.3.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \end{equation}
+l.154 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \end{equation}
+l.154 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \end{equation}
+l.154 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.139 \end{equation}
-                    ] [27pdfTeX warning (ext4): destination with the same ident
-ifier (name{equation.3.3.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.183 \end{equation}
+l.154 \end{equation}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{equation.3.3.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.183 \end{equation}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{equation.3.3.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.183 \end{equation}
-                    ]
+l.154 \end{equation}
+                    ]pdfTeX warning (ext4): destination with the same identifie
+r (name{equation.3.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.3.3.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 \begin{equation}
+                      
 LaTeX Font Info:    Trying to load font information for U+bbm on input line 191
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [28]
-<sections/images/symmetric_independent_unif_01_Q1.png, id=914, 503.8825pt x 476
+) [25pdfTeX warning (ext4): destination with the same identifier (name{equation
+.3.3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.193 
+      ]
+<sections/images/symmetric_independent_unif_01_Q1.png, id=866, 503.8825pt x 476
 .78125pt>
 File: sections/images/symmetric_independent_unif_01_Q1.png Graphic file (type p
 ng)
 <use sections/images/symmetric_independent_unif_01_Q1.png>
 Package pdftex.def Info: sections/images/symmetric_independent_unif_01_Q1.png  
-used on input line 321.
+used on input line 326.
 (pdftex.def)             Requested size: 281.85587pt x 266.69739pt.
- [29 <./sections/images/symmetric_independent_unif_01_Q1.png>] [30] [31]
-<sections/images/symmetric_independent_unif_01.png, id=976, 503.8825pt x 476.78
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+ [26]
+[27 <./sections/images/symmetric_independent_unif_01_Q1.png>] [28]
+<sections/images/symmetric_independent_unif_01.png, id=920, 503.8825pt x 476.78
 125pt>
 File: sections/images/symmetric_independent_unif_01.png Graphic file (type png)
 
 <use sections/images/symmetric_independent_unif_01.png>
 Package pdftex.def Info: sections/images/symmetric_independent_unif_01.png  use
-d on input line 465.
+d on input line 470.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/symmetric_independent_unif_01_ebm.png, id=977, 503.8825pt x 47
+<sections/images/symmetric_independent_unif_01_ebm.png, id=921, 503.8825pt x 47
 6.78125pt>
 File: sections/images/symmetric_independent_unif_01_ebm.png Graphic file (type 
 png)
 <use sections/images/symmetric_independent_unif_01_ebm.png>
 Package pdftex.def Info: sections/images/symmetric_independent_unif_01_ebm.png 
- used on input line 466.
+ used on input line 471.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
- [32 <./sections/images/symmetric_independent_unif_01.png> <./sections/images/s
-ymmetric_independent_unif_01_ebm.png>]
-<sections/images/symmetric_independent_unif_23.png, id=999, 503.8825pt x 476.78
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+<sections/images/symmetric_independent_unif_23.png, id=944, 503.8825pt x 476.78
 125pt>
 File: sections/images/symmetric_independent_unif_23.png Graphic file (type png)
 
 <use sections/images/symmetric_independent_unif_23.png>
 Package pdftex.def Info: sections/images/symmetric_independent_unif_23.png  use
-d on input line 539.
+d on input line 544.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/symmetric_independent_unif_23_ebm.png, id=1000, 503.8825pt x 4
-76.78125pt>
+<sections/images/symmetric_independent_unif_23_ebm.png, id=945, 503.8825pt x 47
+6.78125pt>
 File: sections/images/symmetric_independent_unif_23_ebm.png Graphic file (type 
 png)
 <use sections/images/symmetric_independent_unif_23_ebm.png>
 Package pdftex.def Info: sections/images/symmetric_independent_unif_23_ebm.png 
- used on input line 540.
+ used on input line 545.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
- [33 <./sections/images/symmetric_independent_unif_23.png> <./sections/images/s
-ymmetric_independent_unif_23_ebm.png>]
-<sections/images/symmetric_independent_beta.png, id=1021, 503.8825pt x 476.7812
-5pt>
+
+[30 <./sections/images/symmetric_independent_unif_01.png> <./sections/images/sy
+mmetric_independent_unif_01_ebm.png>]
+<sections/images/symmetric_independent_beta.png, id=965, 503.8825pt x 476.78125
+pt>
 File: sections/images/symmetric_independent_beta.png Graphic file (type png)
 <use sections/images/symmetric_independent_beta.png>
 Package pdftex.def Info: sections/images/symmetric_independent_beta.png  used o
-n input line 583.
+n input line 588.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/symmetric_independent_beta_ebm.png, id=1022, 503.8825pt x 476.
-78125pt>
+<sections/images/symmetric_independent_beta_ebm.png, id=966, 503.8825pt x 476.7
+8125pt>
 File: sections/images/symmetric_independent_beta_ebm.png Graphic file (type png
 )
 <use sections/images/symmetric_independent_beta_ebm.png>
 Package pdftex.def Info: sections/images/symmetric_independent_beta_ebm.png  us
-ed on input line 584.
+ed on input line 589.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
-
-Underfull \vbox (badness 2717) has occurred while \output is active []
-
- [34 <./sections/images/symmetric_independent_beta.png> <./sections/images/symm
-etric_independent_beta_ebm.png>]
-<sections/images/symmetric_correlated_unif.png, id=1040, 503.8825pt x 476.78125
-pt>
+ [31 <./sections/images/symmetric_independent_unif_23.png> <./sections/images/s
+ymmetric_independent_unif_23_ebm.png>]
+<sections/images/symmetric_correlated_unif.png, id=986, 503.8825pt x 476.78125p
+t>
 File: sections/images/symmetric_correlated_unif.png Graphic file (type png)
 <use sections/images/symmetric_correlated_unif.png>
 Package pdftex.def Info: sections/images/symmetric_correlated_unif.png  used on
- input line 664.
+ input line 669.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/symmetric_correlated_unif_ebm.png, id=1041, 503.8825pt x 476.7
-8125pt>
+<sections/images/symmetric_correlated_unif_ebm.png, id=987, 503.8825pt x 476.78
+125pt>
 File: sections/images/symmetric_correlated_unif_ebm.png Graphic file (type png)
 
 <use sections/images/symmetric_correlated_unif_ebm.png>
 Package pdftex.def Info: sections/images/symmetric_correlated_unif_ebm.png  use
-d on input line 665.
+d on input line 670.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
- [35 <./sections/images/symmetric_correlated_unif.png> <./sections/images/symme
-tric_correlated_unif_ebm.png>]
-<sections/images/asymmetric_independent_belloni.png, id=1062, 503.8825pt x 476.
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [32 <./sections/images/symmetric_independent_beta.png> <./sections/images/symm
+etric_independent_beta_ebm.png>]
+<sections/images/asymmetric_independent_belloni.png, id=1008, 503.8825pt x 476.
 78125pt>
 File: sections/images/asymmetric_independent_belloni.png Graphic file (type png
 )
 <use sections/images/asymmetric_independent_belloni.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_belloni.png  us
-ed on input line 745.
+ed on input line 750.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/asymmetric_independent_belloni_ebm.png, id=1063, 503.8825pt x 
+<sections/images/asymmetric_independent_belloni_ebm.png, id=1009, 503.8825pt x 
 476.78125pt>
 File: sections/images/asymmetric_independent_belloni_ebm.png Graphic file (type
  png)
 <use sections/images/asymmetric_independent_belloni_ebm.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_belloni_ebm.png
-  used on input line 746.
+  used on input line 751.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
-<sections/images/belloni_alloc_n1.png, id=1070, 598.235pt x 586.19pt>
+ [33 <./sections/images/symmetric_correlated_unif.png> <./sections/images/symme
+tric_correlated_unif_ebm.png>]
+<sections/images/belloni_alloc_n1.png, id=1026, 598.235pt x 586.19pt>
 File: sections/images/belloni_alloc_n1.png Graphic file (type png)
 <use sections/images/belloni_alloc_n1.png>
 Package pdftex.def Info: sections/images/belloni_alloc_n1.png  used on input li
-ne 759.
+ne 764.
 (pdftex.def)             Requested size: 211.38832pt x 207.12842pt.
-<sections/images/belloni_alloc_n2.png, id=1071, 542.025pt x 531.9875pt>
+<sections/images/belloni_alloc_n2.png, id=1027, 542.025pt x 531.9875pt>
 File: sections/images/belloni_alloc_n2.png Graphic file (type png)
 <use sections/images/belloni_alloc_n2.png>
 Package pdftex.def Info: sections/images/belloni_alloc_n2.png  used on input li
-ne 760.
+ne 765.
 (pdftex.def)             Requested size: 206.69334pt x 202.86357pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36 <./sections/images/asymmetric_independent_belloni.png> <./sections/images/
-asymmetric_independent_belloni_ebm.png>]
-<sections/images/asymmetric_independent_truncnorm.png, id=1090, 503.8825pt x 47
+ [34 <./sections/images/asymmetric_independent_belloni.png> <./sections/images/
+asymmetric_independent_belloni_ebm.png> <./sections/images/belloni_alloc_n1.png
+> <./sections/images/belloni_alloc_n2.png>]
+<sections/images/asymmetric_independent_truncnorm.png, id=1047, 503.8825pt x 47
 6.78125pt>
 File: sections/images/asymmetric_independent_truncnorm.png Graphic file (type p
 ng)
 <use sections/images/asymmetric_independent_truncnorm.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_truncnorm.png  
-used on input line 803.
+used on input line 808.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/asymmetric_independent_truncnorm_ebm.png, id=1091, 503.8825pt 
+<sections/images/asymmetric_independent_truncnorm_ebm.png, id=1048, 503.8825pt 
 x 476.78125pt>
 File: sections/images/asymmetric_independent_truncnorm_ebm.png Graphic file (ty
 pe png)
 <use sections/images/asymmetric_independent_truncnorm_ebm.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_truncnorm_ebm.p
-ng  used on input line 804.
+ng  used on input line 809.
 (pdftex.def)             Requested size: 206.69334pt x 195.57614pt.
-
-Underfull \vbox (badness 3557) has occurred while \output is active []
-
- [37 <./sections/images/belloni_alloc_n1.png> <./sections/images/belloni_alloc_
-n2.png>]
-[38 <./sections/images/asymmetric_independent_truncnorm.png> <./sections/images
-/asymmetric_independent_truncnorm_ebm.png>]
-<sections/images/asymmetric_independent_belloni_Q1.png, id=1125, 503.8825pt x 4
+ [35 <./sections/images/asymmetric_independent_truncnorm.png> <./sections/image
+s/asymmetric_independent_truncnorm_ebm.png>]
+<sections/images/asymmetric_independent_belloni_Q1.png, id=1074, 503.8825pt x 4
 76.78125pt>
 File: sections/images/asymmetric_independent_belloni_Q1.png Graphic file (type 
 png)
 <use sections/images/asymmetric_independent_belloni_Q1.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_belloni_Q1.png 
- used on input line 880.
+ used on input line 885.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
-<sections/images/asymmetric_independent_belloni_Q2.png, id=1126, 503.8825pt x 4
+<sections/images/asymmetric_independent_belloni_Q2.png, id=1075, 503.8825pt x 4
 76.78125pt>
 File: sections/images/asymmetric_independent_belloni_Q2.png Graphic file (type 
 png)
 <use sections/images/asymmetric_independent_belloni_Q2.png>
 Package pdftex.def Info: sections/images/asymmetric_independent_belloni_Q2.png 
- used on input line 881.
+ used on input line 886.
 (pdftex.def)             Requested size: 211.38832pt x 200.02122pt.
- [39 <./sections/images/asymmetric_independent_belloni_Q1.png> <./sections/imag
-es/asymmetric_independent_belloni_Q2.png>]
+ [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 906.
+(hyperref)                removing `math shift' on input line 911.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 906.
+(hyperref)                removing `math shift' on input line 911.
 
-[40]) [41]
+
+Underfull \vbox (badness 3612) has occurred while \output is active []
+
+ [37 <./sections/images/asymmetric_independent_belloni_Q1.png> <./sections/imag
+es/asymmetric_independent_belloni_Q2.png>]) [38]
 \openout2 = `sections/reflexivity.aux'.
 
- (./sections/reflexivity.tex [42
-
-
-
-]
+ (./sections/reflexivity.tex
 Chapter 4.
-[43] [44] [45] [46] [47] [48] [49] [50] [51] [52]) [53]
+[39
+
+
+
+] [40] [41] [42] [43] [44] [45] [46] [47] [48]) [49]
 \openout2 = `sections/conclusion.aux'.
 
 
-(./sections/conclusion.tex [54
+(./sections/conclusion.tex [50
 
 
 
 ]
 Chapter 5.
-[55]) [56]
+[51]) [52]
 \openout2 = `sections/bib.aux'.
 
  (./sections/bib.tex
 Chapter 6.
-[57
+
+Overfull \hbox (39.88275pt too wide) in paragraph at lines 2--2
+[][]\OT1/cmr/m/n/10 Alphabet (2024). \OT1/cmr/m/it/10 Al-pha-bet An-nual Re-por
+t\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : []$\OT1/cmtt/m/n/10 ht
+tps : / / abc . xyz / assets / 5a / ae / 29f710e646b49ee3d6b63c4dc3a0 /
+ []
+
+[53
 
 
 
-] [58]
+] [54]
 Overfull \hbox (6.32pt too wide) in paragraph at lines 2--2
 \OT1/cmtt/m/n/10 3681(01 ) 00008 -[] 5$[]\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url
 \OT1/cmr/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / www . sciencedirect . com / s
 cience / article / pii / S0039368101000085$[]\OT1/cmr/m/n/10 . 
  []
 
-[59]
+[55]
 Overfull \hbox (6.59679pt too wide) in paragraph at lines 2--2
 [][]\OT1/cmr/m/n/10 Li, Shengwu (2017). ``Ob-vi-ously Strategy-Proof Mech-a-nis
 ms''. In: \OT1/cmr/m/it/10 Amer-i-can Eco-nomic Re-view \OT1/cmr/m/n/10 107.11,
  3257{87.
  []
 
-[60]
+[56]
 Overfull \hbox (1.07005pt too wide) in paragraph at lines 2--2
 \OT1/cmtt/m/n/10 0531(83 ) 90048 -[] 0$[]\OT1/cmr/m/n/10 . \OT1/cmr/m/sc/10 url
 \OT1/cmr/m/n/10 : []$\OT1/cmtt/m/n/10 https : / / www . sciencedirect . com / s
 cience / article / pii / 0022053183900480$[]\OT1/cmr/m/n/10 . 
  []
 
-[61] [62]
+[57] [58] [59]
 Overfull \hbox (0.51129pt too wide) in paragraph at lines 2--2
 \OT1/cmr/m/n/10 Prob-a-bilis-tic Horse Race Con-fuses and De-mo-bi-lizes the Pu
 b-lic''. In: \OT1/cmr/m/it/10 The Jour-nal of Pol-i-tics \OT1/cmr/m/n/10 82.4, 
 pp. 1530{
  []
 
-) [63]
+) [60]
 \openout2 = `sections/appendix.aux'.
 
- (./sections/appendix.tex [64
-
-
-
-]
+ (./sections/appendix.tex
 Chapter 7.
-<sections/images/local_size_1.png, id=1715, 578.16pt x 578.16pt>
+<sections/images/local_size_1.png, id=1674, 578.16pt x 578.16pt>
 File: sections/images/local_size_1.png Graphic file (type png)
 <use sections/images/local_size_1.png>
 Package pdftex.def Info: sections/images/local_size_1.png  used on input line 1
 1.
 (pdftex.def)             Requested size: 140.92793pt x 140.92262pt.
-<sections/images/local_size_2.png, id=1716, 578.16pt x 578.16pt>
+<sections/images/local_size_2.png, id=1675, 578.16pt x 578.16pt>
 File: sections/images/local_size_2.png Graphic file (type png)
 <use sections/images/local_size_2.png>
 Package pdftex.def Info: sections/images/local_size_2.png  used on input line 1
 2.
 (pdftex.def)             Requested size: 140.92793pt x 140.92262pt.
-<sections/images/local_size_3.png, id=1717, 578.16pt x 578.16pt>
+<sections/images/local_size_3.png, id=1676, 578.16pt x 578.16pt>
 File: sections/images/local_size_3.png Graphic file (type png)
 <use sections/images/local_size_3.png>
 Package pdftex.def Info: sections/images/local_size_3.png  used on input line 1
@@ -1624,8 +1643,12 @@ Underfull \hbox (badness 2856) in paragraph at lines 27--27
 o-rithm with lo-cal and
  []
 
-[65]) [66 <./sections/images/local_size_1.png> <./sections/images/local_size_2.
-png> <./sections/images/local_size_3.png>] [67]
+[61
+
+
+
+]) [62 <./sections/images/local_size_1.png> <./sections/images/local_size_2.png
+> <./sections/images/local_size_3.png>] [63]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
  (./thesis.aux
@@ -1635,29 +1658,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F458131B7FFC1E96D7A393527B926230;2778.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 5437A1D5A6F2B58B09F1ACB503BDB8B7;2778.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 137.
  ) 
 Here is how much of TeX's memory you used:
- 29716 strings out of 480608
- 576085 string characters out of 5903631
- 1085047 words of memory out of 5000000
- 44624 multiletter control sequences out of 15000+600000
+ 29710 strings out of 480608
+ 576406 string characters out of 5903631
+ 1086761 words of memory out of 5000000
+ 44627 multiletter control sequences out of 15000+600000
  553771 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,21n,65p,2188b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,21n,65p,2156b,2033s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/jamesmichelson/Library/texlive/2020/texmf-var/fonts/pk/ljfour/public
 /bbm/bbm10.600pk>{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/c
 m-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
@@ -1695,10 +1709,10 @@ texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on thesis.pdf (73 pages, 2037649 bytes).
+Output written on thesis.pdf (69 pages, 2031109 bytes).
 PDF statistics:
- 1957 PDF objects out of 2073 (max. 8388607)
- 1787 compressed objects within 18 object streams
- 397 named destinations out of 1000 (max. 500000)
+ 1912 PDF objects out of 2073 (max. 8388607)
+ 1746 compressed objects within 18 object streams
+ 388 named destinations out of 1000 (max. 500000)
  433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

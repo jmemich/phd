@@ -181,6 +181,29 @@
     \field{year}{2009}
   \endentry
 
+  \entry{alphabet2024}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Alphabet},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Alphabet Annual Report}
+    \verb{url}
+    \verb https://abc.xyz/assets/5a/ae/29f710e646b49ee3d6b63c4dc3a0/goog-10-k-2
+    \verb 023.pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
   \entry{armstrong1996multiproduct}{article}{}
     \name{author}{1}{}{%
       {{hash=AM}{%
@@ -610,6 +633,43 @@
     \field{volume}{59}
     \field{journaltitle}{Econometrica: Journal of the Econometric Society}
     \field{year}{1991}
+  \endentry
+
+  \entry{brown2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BN}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sandholm},
+         familyi={S\bibinitperiod},
+         given={Tuomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BNST1}
+    \strng{fullhash}{BNST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1126/science.aay2400
+    \endverb
+    \field{number}{6456}
+    \field{pages}{885\bibrangedash 890}
+    \field{title}{Superhuman AI for multiplayer poker}
+    \verb{url}
+    \verb https://www.science.org/doi/abs/10.1126/science.aay2400
+    \endverb
+    \field{volume}{365}
+    \field{journaltitle}{Science}
+    \field{year}{2019}
   \endentry
 
   \entry{brusco2009google}{article}{}
@@ -2307,6 +2367,40 @@
     \field{year}{2013}
   \endentry
 
+  \entry{lackner2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LM}{%
+         family={Lackner},
+         familyi={L\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Skowron},
+         familyi={S\bibinitperiod},
+         given={Piotr},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LMSP1}
+    \strng{fullhash}{LMSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jet.2020.105173
+    \endverb
+    \field{issn}{0022-0531}
+    \field{pages}{105173}
+    \field{title}{Consistent approval-based multi-winner rules}
+    \field{volume}{192}
+    \field{journaltitle}{Journal of Economic Theory}
+    \field{year}{2021}
+  \endentry
+
   \entry{landsberger1958}{article}{}
     \name{author}{1}{}{%
       {{hash=LHA}{%
@@ -3737,6 +3831,34 @@
     \field{sortinithash}{P}
     \field{title}{The Poverty of Historicism}
     \field{year}{1953}
+  \endentry
+
+  \entry{prendergast2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PC}{%
+         family={Prendergast},
+         familyi={P\bibinitperiod},
+         given={Canice},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PC1}
+    \strng{fullhash}{PC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1086/720332
+    \endverb
+    \field{number}{8}
+    \field{pages}{1993\bibrangedash 2017}
+    \field{title}{The Allocation of Food to Food Banks}
+    \field{volume}{130}
+    \field{journaltitle}{Journal of Political Economy}
+    \field{year}{2022}
   \endentry
 
   \entry{putnam1975}{book}{}

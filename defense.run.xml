@@ -44,11 +44,11 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>thesis.aux</file>
-      <file>thesis-blx.bib</file>
+      <file>defense.aux</file>
+      <file>defense-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>thesis.bbl</file>
+      <file>defense.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,20 +67,20 @@
     <cmdline>
       <binary>bibtex</binary>
       <option>-min-crossrefs 2</option>
-      <infile>thesis</infile>
+      <infile>defense</infile>
     </cmdline>
     <input>
-      <file>thesis.aux</file>
+      <file>defense.aux</file>
     </input>
     <output>
-      <file>thesis.bbl</file>
+      <file>defense.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>thesis.bbl</file>
+      <file>defense.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>thesis.aux</file>
-      <file>thesis-blx.bib</file>
+      <file>defense.aux</file>
+      <file>defense-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>references.bib</file>

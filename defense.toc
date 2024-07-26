@@ -1,0 +1,11 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {1}{Preamble}{3}{0}{1}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {2}{Economic Theory \& Design Economics}{7}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {3}{Optimal Multidimensional Auction Design}{16}{0}{3}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {4}{Reflexive Measurement}{28}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Conclusion}{37}{0}{5}
